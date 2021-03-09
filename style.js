@@ -17,7 +17,7 @@
 				{ name: 'T.01 Cover', element: 'h4', attributes: { 'class': 'bck-title-1'} },
 				{ name: 'T.02 Sections', element: 'h4', attributes: { 'class': 'bck-title-2'} },
 				{ name: 'T.03 Lecture', element: 'h4', attributes: { 'class': 'bck-title-3'} },
-				{ name: 'Título 4', element: 'h4', attributes: { 'class': 'bck-title-4'} },
+				{ name: 'T.04 Description', element: 'h4', attributes: { 'class': 'bck-title-4'} },
 				{ name: 'Título 5', element: 'h4', attributes: { 'class': 'bck-title-5'} },
 				{ name: 'Título 6', element: 'h4', attributes: { 'class': 'bck-title-6'} },
 
@@ -37,9 +37,10 @@
 				{ name: 'Box 06 IMG 100%', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-6' } },
 
 
-				{ name: 'O.List 01 ', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-01' } },
-				{ name: 'O.List 02', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-02' } },
-				{ name: 'O.List 03', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-03' } },
+				{ name: 'L.123 Pink ', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-01' } },
+				{ name: 'L.123 Black', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-02' } },
+				{ name: 'L.abc black', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-03' } },
+				{ name: 'L.abc pink', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-04' } },
 
 				{ name: 'U.List 01', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-01' } },
 				{ name: 'U.List 02', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-02' } },
