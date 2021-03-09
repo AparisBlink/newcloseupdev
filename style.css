@@ -1030,165 +1030,131 @@
     border-radius: 6px;	
 }
 
+/*------------------------*/
+/*------- CAJAS ---------*/
+/*-----------------------*/
 
+/*--- CAJA 01 - Word focus---*/
+.bck-box.bck-box-1 {
+    background: transparent;
+    border: 0;
+    padding: 15px;
+    font-weight: normal;
+    position: relative;
+    margin-left: 35px;
+    margin-top: 30px;
+    border-bottom: 4px solid #00b7b6;
+}
+.bck-box.bck-box-1:before {
+    content: "";
+    background-image: url(images/icon_wordfocus.png);
+    position: absolute;
+    top: 0;
+    width: 110px;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: -56px;
+    top: -75px;
+}
 
-	/*Caja negra
-	BOX 1*/
+/*--- CAJA 02 - Exam tip ---*/
+.bck-box.bck-box-2 {
+    padding: 0px;
+    margin: 55px 10px 10px 10px;
+    position: relative;
+}
+.bck-box-2 > .bck-title {
+    background: #FAA63F;
+    padding: 5px 10px;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 2.2rem;
+    text-align: left;
+    border-radius: 0;
+    display: inline-block;
+    position: absolute;
+    top: -41px;
+    right: 0;
+}
+.bck-box-2 > .bck-title:before {
+    content: "";
+    position: absolute;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
+    border-top: 7px solid #faa63f;
+    width: 0;
+    height: 0;
+    bottom: -7px;
+    left: 0px;
+}
+.bck-box-2 >.bck-content {
+    padding: 10px 10px 0px 10px;
+    border: 2px solid #faa63f;
+}
 
-		.content_type_clase_newcloseupdev .box-negra .bck-title,
-		.box-negra .bck-title{
-			text-align: left;
-			font-size: 1.8rem;
-		}
-		.content_type_clase_newcloseupdev .box-negra .bck-title,
-		.box-negra .bck-title p{
-		    margin: 0 0 10px;
-		}
-		.content_type_clase_newcloseupdev .box-negra .texto_curso p:last-of-type{
-			margin-bottom:10px;
-		}
+/*--- CAJA 03 - Exam task ---*/
+.bck-box-3 {
+    border: none;
+    position: relative;
+    margin-top: 55px;
+}
+.bck-box-3 > .bck-title {
+    text-align: left;
+    font-size: 2.8rem;
+    margin-bottom: -8px;
+    background: #faa63f;
+    padding: 2px 25px;
+    position: absolute;
+    top: -42px;
+}
+.bck-box-3 > .bck-title:before {
+    content: "";
+    position: absolute;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
+    border-top: 10px solid #faa63f;
+    width: 0;
+    height: 0;
+    bottom: -7px;
+    right: 0;
+}
+.bck-box-3 > .bck-content {
+    padding: 15px;
+    border: 2px solid #faa63f;
+    border-radius: 0;
+}
 
-		.box-negra {
-		    border: 0;
-		    padding: 15px 15px 0px 15px;
-		    margin-bottom: 10px;
-		    padding: 0;
-		    width: calc(100% + 80px);
-		    margin-left: -40px !important;
-		}
-		.box-negra > .bck-content {
-		    padding: 10px 40px;
-		    color: #fff;
-		    background-color: #091E27;
-		    font-family: serif;
-		}
+/*--- CAJA 04 - 100% ---*/
+.bck-box-4 {
+    border: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    width: calc(100% + 80px);
+    margin-left: -40px !important;
+}
 
-	/*Caja learning*/
-		.content_type_clase_newcloseupdev .box-learning .bck-title,
-		.box-learning .bck-title {
-			background: #F15A58;
-			padding: 5px 10px;
-			border-radius: 10px 10px 0px 0px;
-			font-size: 2.2rem;
-		    text-align: left;
-		}
-
-		.content_type_clase_newcloseupdev .box-learning .bck-content,
-		.box-learning .bck-content {
-			padding: 10px 10px 0px 10px;
-			border: 2px solid #F15A58;
-		}
-		.content_type_clase_newcloseupdev .box-learning {
-		    padding: 0px;
-		}
-
-	/*Caja useful expressions */
-		.box-useful {
-			margin: 0 auto;
-			border: 2px solid #F58139;
-			border-radius: 20px 20px 0px 0px;
-			padding: 20px;
-		}
-
-		.content_type_clase_newcloseupdev .box-useful .bck-title,
-		.box-useful .bck-title{
-			font-size: 2.4rem;
-			text-align: left;
-		}
-
-	/*Caja azul*/
-		.bck-box.box-azul {
-		    background: transparent;
-		    border: 0;
-		    padding: 15px;
-		    font-weight: normal;
-		    position: relative;
-		    margin-left: 35px;
-		    margin-top: 30px;
-		    border-bottom: 4px solid #00b7b6;
-		}
-
-		.content_type_clase_newcloseupdev .bck-box.box-azul .bck-title,
-		.bck-box.box-azul .bck-title{
-			font-weight: bold;
-		}
-
-		.bck-box.box-azul.center:before {
-		    content: "";
-		    background-image: url(/useruploads/r/a/221083658/activity_other_imported/Word-focus.png);
-		    position: absolute;
-		    top: 0;
-		    width: 110px;
-		    height: 100%;
-		    background-size: contain;
-		    background-repeat: no-repeat;
-		    left: -56px;
-		    top: -75px;
-		}
-
-	/*Caja amarilla*/
-		.content_type_clase_newcloseupdev .bck-box.box-amarilla,
-		.bck-box.box-amarilla {
-			border: 5px solid #FFF100;
-			box-shadow: 0 10px 20px 0 rgba(50,50,50,0.4);
-		}
-
-		.content_type_clase_newcloseupdev .bck-box.box-amarilla .bck-title,
-		.bck-box.box-amarilla .bck-title {
-			color: #6D6E70;
-			font-size: 2.6rem;
-		}
-
-	/*Exam task*/
-		.content_type_clase_newcloseupdev .bck-box.box-actividad,
-		.bck-box.box-actividad {
-			border: none;
-		}
-
-		.content_type_clase_newcloseupdev .bck-box.box-actividad .bck-title,
-		.bck-box.box-actividad .bck-title{
-			text-align: right;
-			font-size: 2.8rem;
-			margin-bottom: -8px;
-		}
-
-		.content_type_clase_newcloseupdev .bck-box.box-actividad .bck-content,
-		.bck-box.box-actividad .bck-content{
-			border-top: 5px solid #CBDB2B;
-			border-left: 5px solid #CBDB2B;
-			border-top-left-radius: 15px;
-			padding: 15px;
-		}
-
-	/*Caja idea focus*/
-		.bck-box.box-tip:before {
-			content: "Ideas Focus";
-			background-color: rgba(255,255,255,0.5);
-			border: 2px solid #DFCCE3;
-			width: 150px;
-			height: 50px;
-			border-radius: 10px;
-			font-weight: 400;
-			top: -30px;
-			left: -19px;
-			text-align: center;
-			line-height: 5.0rem;
-			color: #000;
-			font-size: larger;
-		}
-
-		.bck-box.box-tip .bck-title {
-			padding-top:10px;
-		}
-
-		.bck-box.box-tip {
-			background-color: rgba(223,204,227,0.6);
-			text-indent: 0px;
-		}
-
-		.bck-box.box-tip .bck-content{
-			padding:15px;
-		}
+/*--- CAJA 05 - Your ideas ---*/
+.bck-box-5 {
+    background-color: #DCE688;
+    text-indent: 0px;
+    padding: 8px 10px 8px 76px;
+}
+.bck-box-5:before {
+    content: "";
+    background: url(/useruploads/r/a/221179522/activity_other_imported/your_ideas.png);
+    border-radius: 0;
+    line-height: inherit;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 88px;
+    border: 0;
+}
+.bck-box-5 ul li:before {
+    background: #922790;
+}
+.bck-box-5 > .bck-content {
+    padding: 0;
+}
 
 	/*Tool tip*/
 		.bck-tooltip {
