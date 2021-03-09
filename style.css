@@ -1,4 +1,87 @@
 /*Fonts*/
+@font-face {
+	font-family: 'AvenirLTsd';
+	src: url('fonts/AvenirLTStd-Book.eot');
+	src: local('☺'), url('fonts/AvenirLTStd-Book.woff') format('woff'), url('fonts/AvenirLTStd-Book.ttf') format('truetype'), url('fonts/AvenirLTStd-Book.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'AvenirLTsd';
+	src: url('fonts/AvenirLTStd-BookOblique.eot');
+	src: local('☺'), url('fonts/AvenirLTStd-BookOblique.woff') format('woff'), url('fonts/AvenirLTStd-BookOblique.ttf') format('truetype'), url('fonts/AvenirLTStd-BookOblique.svg') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'AvenirLTsd';
+	src: url('fonts/AvenirLTStd-Heavy.eot');
+	src: local('☺'), url('fonts/AvenirLTStd-Heavy.woff') format('woff'), url('fonts/AvenirLTStd-Heavy.ttf') format('truetype'), url('fonts/AvenirLTStd-Heavy.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'AvenirLTsd';
+	src: url('fonts/AvenirLTStd-HeavyOblique.eot');
+	src: local('☺'), url('fonts/AvenirLTStd-HeavyOblique.woff') format('woff'), url('fonts/AvenirLTStd-HeavyOblique.ttf') format('truetype'), url('fonts/AvenirLTStd-HeavyOblique.svg') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'AvenirLTStd-Light';
+	src: url('fonts/AvenirLTStd-Light.eot');
+	src: local('☺'), url('fonts/AvenirLTStd-Light.woff') format('woff'), url('fonts/AvenirLTStd-Light.ttf') format('truetype'), url('fonts/AvenirLTStd-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'AvenirLTStd-Light';
+	src: url('fonts/AvenirLTStd-LightOblique.eot');
+	src: local('☺'), url('fonts/AvenirLTStd-LightOblique.woff') format('woff'), url('fonts/AvenirLTStd-LightOblique.ttf') format('truetype'), url('fonts/AvenirLTStd-LightOblique.svg') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'PalatinoLTStd';
+	src: url('fonts/PalatinoLTStd-Roman.eot');
+	src: local('☺'), url('fonts/PalatinoLTStd-Roman.woff') format('woff'), url('fonts/PalatinoLTStd-Roman.ttf') format('truetype'), url('fonts/PalatinoLTStd-Roman.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'PalatinoLTStd';
+	src: url('fonts/PalatinoLTStd-Italic.eot');
+	src: local('☺'), url('fonts/PalatinoLTStd-Italic.woff') format('woff'), url('fonts/PalatinoLTStd-Italic.ttf') format('truetype'), url('fonts/PalatinoLTStd-Italic.svg') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'PalatinoLTStd';
+	src: url('fonts/PalatinoLTStd-Bold.eot');
+	src: local('☺'), url('fonts/PalatinoLTStd-Bold.woff') format('woff'), url('fonts/PalatinoLTStd-Bold.ttf') format('truetype'), url('fonts/PalatinoLTStd-Bold.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'TektonPro';
+	src: url('fonts/TektonPro-Regular.eot');
+	src: local('☺'), url('fonts/TektonPro-Regular.woff') format('woff'), url('fonts/TektonPro-Regular.ttf') format('truetype'), url('fonts/TektonPro-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'TektonPro';
+	src: url('fonts/TektonPro-Bold.eot');
+	src: local('☺'), url('fonts/TektonPro-Bold.woff') format('woff'), url('fonts/TektonPro-Bold.ttf') format('truetype'), url('fonts/TektonPro-Bold.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
 
 
 /* General */
@@ -123,9 +206,7 @@
 		color: #FFF;
 	}
 
-	.content_type_clase_newcloseupdev #actividad .texto_curso {
-		font-size: 1.9rem;
-	}
+
 
 	#actividad .texto_curso li,
 	#actividad .workspace ul li li {
@@ -853,47 +934,50 @@
 
 
 /*CENGAGE UK*/
+/*Generales */
+	.content_type_clase_newcloseupdev #actividad .texto_curso {
+		font-size: 1.9rem;
+		font-family: "AvenirLTsd", sans-serif;
+	}
 	/*Titulo de la slide*/
 		.content_type_clase_newcloseupdev #actividad .content .header .title {
 			display:none;
 		}
 
-	/*Nav bar*/
-		.content_type_clase_newcloseupdev .publisher-navbar {
-			background-color: #fff;
-		}
+/*Nav bar*/
+.content_type_clase_cengage2021demo .navbar-content:before {
+    background-image: url(images/logo_NatGeoLearning.png);
+    background-size: contain;
+    left: 10px;
+}
+.content_type_clase_cengage2021demo .slider-indicators li.active,
+ .content_type_clase_cengage2021demo .publisher-navbar li:hover,
+  .content_type_clase_cengage2021demo .publisher-navbar .dropdown button:hover {
+    background-color: #fff0;
+    color: #ffd700;
+    border-right: 3px solid #ffd700;
+}
 
-		.content_type_clase_newcloseupdev .navbar-content:before {
-		   content: " ";
-		   background-image: url(logocengage.jpg);
-			height: 60px;
-			width: 135px;
-			margin-top: 9px;
-			margin-right: 15px;
-			left: 0px;
-		}
+.content_type_clase_cengage2021demo .publisher-navbar {
+    background-color: #001822;
+    border-bottom: 3px solid gold;
+    -moz-box-shadow: 0px 6px 8px #ffd70042;
+    -webkit-box-shadow: 0px 6px 8px #ffd70042;
+    box-shadow: 0px 6px 8px #ffd70042;
+}
+.content_type_clase_cengage2021demo .slider-indicators li {
+    background-color: #fff0;
+    color: #ffffff;
+    border-right: 3px solid #ffffff;
+}
 
-		.content_type_clase_newcloseupdev .slider-indicators li.active,
-		.content_type_clase_newcloseupdev .publisher-navbar li:hover,
-		.content_type_clase_newcloseupdev .publisher-navbar .dropdown button:hover {
-			background-color: #fff;
-			color: #005B89;
-			 border-right: 3px solid #005B89;
-		}
+.content_type_clase_newcloseupdev .slider-indicator span {
+	width: auto;
+	margin-right: 2px;
+	margin-left: 15px
+}
 
-		.content_type_clase_newcloseupdev .slider-indicators li {
-			background-color: #FFF;
-			color: #00ADEE;
-			border-radius: 0px;
-			border-right: 3px solid #00ADEE;
-		}
-
-		.content_type_clase_newcloseupdev .slider-indicator span {
-			width: auto;
-			margin-right: 2px;
-			margin-left: 15px
-		}
-
+/*------ TITULO 1 ------*/
 	/*Titulo 1*/
 		.bck-title1 {
 			font-size: 3.2rem;
@@ -1190,113 +1274,6 @@
 		}
 		.cke_contents ul li:before{
 			margin-top:13px;
-		}
-
-	/*Desplegable1*/
-		.bck-dropdown-titulo {
-			color: #CBDB2B;
-		}
-
-		.bck-dropdown-icon {
-			color: #CBDB2B;
-		}
-
-		.fa-chevron-up:before {
-			content: "\f0f6";
-			font-size: 3.0rem;
-		}
-
-		.fa-chevron-down:before {
-			content: "\f0f6";
-			font-size: 3.0rem;
-		}
-
-		.bck-dropdown-icon>.fa {
-			border: none;
-		}
-
-		.content_type_clase_newcloseupdev .bck-dropdown-content {
-			overflow-y: auto;
-			max-height: 100%;
-			max-width: 100%;
-			padding: 2%;
-			background-color: rgba(203, 219, 43, 0.2);
-			border-left: 5px solid #CBDB2B;
-			border-top: 3px solid #CBDB2B;
-		}
-
-	/*Desplegable 2*/
-		.desplegable-2 .bck-dropdown-titulo{
-		    color: #204e64;
-		    font-size: 1.6rem;
-		    position: relative;
-		    float: right;
-		    margin-top: 23px;
-		    z-index: 2;
-		    text-align: right;
-		    font-size: 2.8rem;
-		    margin-right: 10px;
-		    color: #414141;
-		}
-
-		.desplegable-2 .bck-dropdown-titulo:after{
-			content: "";
-			background: url(guisante.png);
-			padding-left: 69px;
-			background-size: cover;
-			padding-top: 33px;
-			top: 15px;
-			right: -15px;
-			position: relative;
-			background-repeat: no-repeat;
-		}
-
-		.desplegable-2:not(.open) .bck-dropdown-button{
-			border-bottom: 2px solid #cbdb2b;
-		}
-
-		.desplegable-2 .bck-dropdown-button .fa-chevron-up:before,
-		.desplegable-2 .bck-dropdown-button .fa-chevron-down:before{
-			content:"";
-		}
-
-		.content_type_clase_newcloseupdev .desplegable-2 .bck-dropdown-content{
-			background-color: #fff;
-			border-top: 2px solid #CBDB2B;
-			border-bottom: 10px solid #CBDB2B;
-			border-right: 2px solid #CBDB2B;
-			border-left: 10px solid #CBDB2B;
-			border-radius: 25px;
-		    display: none;
-			position: relative;
-			width: 100%;
-			top: -2px;
-			z-index: 0;
-		}
-
-		.content_type_clase_newcloseupdev .bck-cam-dropdown.open {
-			background-color: #fff;
-			border-top: 2px solid #CBDB2B;
-			border-bottom: 10px solid #CBDB2B;
-			border-right: 2px solid #CBDB2B;
-			border-left: 10px solid #CBDB2B;
-			border-radius: 25px;
-		}
-
-		#actividad .content img.bck-cam-button {
-			position: relative;
-			z-index: 10;
-			float: right;
-		}
-
-		.bck-cam-dropdown {
-			border-top: 2px solid #CBDB2B;
-		}
-
-		.bck-cam-dropdown .bck-title {
-			text-align: right;
-			font-size: 2.8rem;
-			color: #414141;
 		}
 
 	/*Archivos adjuntos*/
