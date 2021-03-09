@@ -1129,7 +1129,7 @@
     border-radius: 0;
 }
 
-/*--- CAJA 04 - 100% ---*/
+/*--- CAJA 04 - Lectures ---*/
 .bck-box-4,
 .bck-box.center.bck-box-4 {
     border: 0;
@@ -1169,6 +1169,14 @@
     padding: 0;
 }
 
+/*--- CAJA 06 - IMG 100% ---*/
+.bck-box-6,
+.bck-box.center.bck-box-6 {
+    border: 0;
+    padding: 0;
+    width: calc(100% + 80px);
+    margin-left: -40px !important;
+}
 
 /*Tool tip*/
 .bck-tooltip {
@@ -1180,103 +1188,23 @@
 	color: #EE1C25;
 }
 
+/*Listas ordenadas*/
+.cke_contents ol li:before,
+.cke_contents .bck-ol ol li:before,
+ .content ol li:before,
+ .content .bck-ol ol li:before {
+    content: counter(bck-li-counter) "";
+    position: absolute;
+    display: inline-block;
+    left: 0px;
+    width: auto;
+    height: auto;
+    color: #000000;
+    font-weight: 700;
+    font-weight: bold;
+}
 
-
-	/*Lista ordenada alpha roja*/
-		.content ol {
-			list-style-type: none;
-		}
-		.content .bck-ol li:before {
-			content: counter(bck-li-counter, upper-alpha)'';
-			position: absolute;
-			margin-left: -40px;
-			font-family: Arial;
-			text-align: right;
-			color: #EE1C25;
-			border-radius: 100%;
-			height: 30px;
-			width: 30px;
-			margin-top: 0px;
-			text-align: center;
-			line-height: 2.9rem;
-			font-weight: bold;
-			background: #fff;
-		}
-
-	/*Lista ordenada alpha negra*/
-		.content ol.bck-ol-4 li:before,
-		.content .texto_curso ol.bck-ol-4 li:before,
-		.content .workspace ul li ol.bck-ol-4 li:before {
-			content: counter(bck-li-counter4, upper-alpha) " ";
-			margin-left: -0.9em;
-			font-weight: bold;
-			font-size: 2.0rem;
-			text-align: right;
-			color: #000;
-			background-color: #fff;
-			padding-bottom: 4px;
-			padding-right: 9px;
-			padding-left: 8px;
-			border-radius: 100%;
-			margin-top: 0px;
-		}
-		.content .bck-ol-4 li{
-			counter-increment: bck-li-counter4 1;
-		}
-
-	/*Lista ordenada Numeral Negra*/
-		.content ol.bck-ol-3 li:before,
-		.content .texto_curso ol.bck-ol-3 li:before,
-		.content .workspace ul li ol.bck-ol-3 li:before {
-			content: counter(bck-li-counter3) " ";
-			margin-left: -1.9em;
-			font-weight: 600;
-			font-size: 2.0rem;
-			text-align: right;
-			color: #000;
-			background-color: #fff;
-			padding-bottom: 4px;
-			padding-right: 14px;
-			padding-left: 8px;
-			border-radius: 100%;
-			margin-top: -2px;
-		}
-		.content .bck-ol-3 li{
-			counter-increment: bck-li-counter3 1;
-		}
-
-	/*Lista ordenada Lower-Alpha*/
-		.content ol.bck-ol-5 li:before,
-		.content .texto_curso ol.bck-ol-5 li:before,
-		.content .workspace ul li ol.bck-ol-5 li:before {
-			content: counter(bck-li-counter5, lower-alpha) " ";
-			margin-left: -0.9em;
-			font-weight: bold;
-			font-size: 2.0rem;
-			text-align: right;
-			color: #414141;
-			background-color: #fff;
-			padding-bottom: 4px;
-			padding-right: 9px;
-			padding-left: 8px;
-			border-radius: 100%;
-			margin-top: 0px;
-		}
-		.content .bck-ol-5 li{
-			counter-increment: bck-li-counter5 1;
-		}
-
-	/*Lista desordenada 1*/
-		.cke_contents ul li:before,
-		.texto_curso ul li:before,
-		.workspace ul li ul li:before {
-			background-color: black;
-			margin-top:9px;
-		}
-		.cke_contents ul li:before{
-			margin-top:13px;
-		}
-
+	
 	/*Archivos adjuntos*/
 		.content_type_clase_newcloseupdev .bck-sub-label,
 		.content_type_clase_newcloseupdev .bck-file-label {
