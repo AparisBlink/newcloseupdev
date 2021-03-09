@@ -1016,7 +1016,7 @@
 /*------- CAJAS ---------*/
 /*-----------------------*/
 .bck-box.center {
-    margin: inherit;
+    margin: 10px 0px 15px 0px;
 }
 .bck-box {
 	padding: 10px 20px;
@@ -1035,6 +1035,7 @@
 }
 
 /*--- CAJA 01 - Word focus---*/
+.bck-box.center.bck-box-1,
 .bck-box.bck-box-1 {
     background: transparent;
     border: 0;
@@ -1059,7 +1060,8 @@
 }
 
 /*--- CAJA 02 - Exam tip ---*/
-.bck-box.bck-box-2 {
+.bck-box.bck-box-2 
+.bck-box.center.bck-box-2 {
     padding: 0px;
     margin: 55px 10px 10px 10px;
     position: relative;
@@ -1094,7 +1096,8 @@
 }
 
 /*--- CAJA 03 - Exam task ---*/
-.bck-box-3 {
+.bck-box.bck-box-3,
+.bck-box.center.bck-box-3 {
     border: none;
     position: relative;
     margin-top: 55px;
@@ -1127,7 +1130,8 @@
 }
 
 /*--- CAJA 04 - 100% ---*/
-.bck-box-4 {
+.bck-box-4,
+.bck-box.center.bck-box-4 {
     border: 0;
     margin-bottom: 10px;
     padding: 0;
@@ -1136,7 +1140,8 @@
 }
 
 /*--- CAJA 05 - Your ideas ---*/
-.bck-box-5 {
+.bck-box-5,
+.bck-box.center.bck-box-5 {
     background-color: #DCE688;
     text-indent: 0px;
     padding: 8px 10px 8px 76px;
