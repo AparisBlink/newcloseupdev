@@ -217,9 +217,7 @@
 		margin: 5px 0;
 	}
 
-	#actividad .class_slide {
-    	padding: 40px 40px 0px;
-    }
+
 
 	#actividad .class_slide:last-of-type {
 		padding-bottom: 100px;
@@ -915,15 +913,18 @@
 }
 
 
-/*CENGAGE UK*/
+/*Close Up 2021*/
 /*Generales */
+	#actividad .class_slide {
+    	padding: 40px 60px 0px 60px;
+    }
 	.content_type_clase_newcloseupdev #actividad .texto_curso {
-		font-size: 1.9rem;
+		font-size: 1.8rem;
 		font-family: "AvenirLTsd", sans-serif;
 	}
 	/*Titulo de la slide*/
 		.content_type_clase_newcloseupdev #actividad .content .header .title {
-			display:none;
+			display: none;
 		}
 
 /*Nav bar*/
@@ -1135,8 +1136,8 @@
     border: 0;
     margin-bottom: 10px;
     padding: 0;
-    width: calc(100% + 80px);
-    margin-left: -40px !important;
+    width: calc(100% + 120px);
+    margin-left: -60px !important;
 }
 .bck-box-4 > .bck-content {
     padding: 10px 40px;
@@ -1174,8 +1175,8 @@
 .bck-box.center.bck-box-6 {
     border: 0;
     padding: 0;
-    width: calc(100% + 80px);
-    margin-left: -40px !important;
+    width: calc(100% + 120px);
+    margin-left: -60px !important;
 }
 
 /*Tool tip*/
@@ -1210,10 +1211,10 @@
     padding-left: 30px;
 }
 .cke_contents ol li:before,
-.cke_contents .bck-ol ol li:before,
+.cke_contents .bck-ol li:before,
  .content ol li:before,
- .content .bck-ol ol li:before {
-    content: counter(bck-li-counter) "";
+ .content .bck-ol li:before {
+    content: counter(bck-li-counter);
     position: absolute;
     display: inline-block;
     left: 0px;
@@ -1223,6 +1224,43 @@
     font-weight: 700;
     font-weight: bold;
 }
+.content .bck-ol li:before,
+.cke_contents .bck-ol li:before {
+    margin-left: 0;
+    background: none;
+    color: #ED155B;
+    height: auto;
+    width: auto;
+    margin-top: 0;
+    line-height: 2.7rem;
+    font-weight: bold;
+    border-radius: 0;
+}
+
+/*-Lista ordenada 1- L.123 pink*/
+.content .bck-ol-01 li:before,
+.cke_contents .bck-ol-01 li:before {
+    color: #ED155B;
+}
+.content .bck-ol-01 li,
+.cke_contents .bck-ol-01 li {
+	margin-left: -30px;
+}
+
+/*-Lista ordenada 2 l.abc black*/
+.content .bck-ol-02 li:before,
+.cke_contents .bck-ol-02 li:before {
+	content: counter(bck-li-counter,lower-alpha);
+    color: #000;
+}
+/*-Lista ordenada 3 - L.abc pink*/
+.content .bck-ol-03 li:before,
+.cke_contents .bck-ol-03 li:before {
+	content: counter(bck-li-counter,lower-alpha);
+    color: #ED155B;
+}
+
+
 
 	
 	/*Archivos adjuntos*/
