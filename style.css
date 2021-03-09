@@ -945,27 +945,27 @@
 		}
 
 /*Nav bar*/
-.content_type_clase_cengage2021demo .navbar-content:before {
+.content_type_clase_newcloseupdev .navbar-content:before {
     background-image: url(images/logo_NatGeoLearning.png);
     background-size: contain;
     left: 10px;
 }
-.content_type_clase_cengage2021demo .slider-indicators li.active,
- .content_type_clase_cengage2021demo .publisher-navbar li:hover,
-  .content_type_clase_cengage2021demo .publisher-navbar .dropdown button:hover {
+.content_type_clase_newcloseupdev .slider-indicators li.active,
+ .content_type_clase_newcloseupdev .publisher-navbar li:hover,
+  .content_type_clase_newcloseupdev .publisher-navbar .dropdown button:hover {
     background-color: #fff0;
     color: #ffd700;
     border-right: 3px solid #ffd700;
 }
 
-.content_type_clase_cengage2021demo .publisher-navbar {
+.content_type_clase_newcloseupdev .publisher-navbar {
     background-color: #001822;
     border-bottom: 3px solid gold;
     -moz-box-shadow: 0px 6px 8px #ffd70042;
     -webkit-box-shadow: 0px 6px 8px #ffd70042;
     box-shadow: 0px 6px 8px #ffd70042;
 }
-.content_type_clase_cengage2021demo .slider-indicators li {
+.content_type_clase_newcloseupdev .slider-indicators li {
     background-color: #fff0;
     color: #ffffff;
     border-right: 3px solid #ffffff;
