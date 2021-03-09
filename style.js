@@ -32,14 +32,17 @@
 				{ name: 'Box 01 Word Focus ', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
 				{ name: 'Box 02 Exam Tip', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
 				{ name: 'Box 03 Exam Task', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-3' } },
-				{ name: 'Box 04 100%', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-4' } },
+				{ name: 'Box 04 Lectures', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-4' } },
 				{ name: 'Box 05 Your ideas', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-5' } },
+				{ name: 'Box 06 IMG 100%', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-6' } },
 
 
-				{ name: 'Lista Ordenada Alpha roja', element: 'ol', attributes: { 'class': 'bck-ol' } },
-				{ name: 'Lista Ordenada Alpha negra', element: 'ol', attributes: { 'class': 'bck-ol-4' } },
-				{ name: 'Lista Ordenada Numeral Negra', element: 'ol', attributes: { 'class': 'bck-ol-3' } },
-				{ name: 'Lista Ordenada Lower-Alpha', element: 'ol', attributes: { 'class': 'bck-ol-5' } },
+				{ name: 'O.List 01 ', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-01' } },
+				{ name: 'O.List 02', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-02' } },
+				{ name: 'O.List 03', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-03' } },
+
+				{ name: 'U.List 01', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-01' } },
+				{ name: 'U.List 02', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-02' } },
 
 				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'desplegable-2' } }
 			]
