@@ -1043,7 +1043,7 @@
     font-weight: normal;
     position: relative;
     margin-left: 35px;
-    margin-top: 30px;
+    margin-top: 80px;
     border-bottom: 4px solid #00b7b6;
 }
 .bck-box.bck-box-1:before {
@@ -1109,7 +1109,7 @@
     background: #faa63f;
     padding: 2px 25px;
     position: absolute;
-    top: -42px;
+    top: -33px;
     min-width: 110px;
 }
 .bck-box-3 > .bck-title:before {
@@ -1170,15 +1170,17 @@
 }
 
 
-	/*Tool tip*/
-		.bck-tooltip {
-			text-decoration: none;
-			color: #EE1C25;
-		}
+/*Tool tip*/
+.bck-tooltip {
+	text-decoration: none;
+	color: #EE1C25;
+}
 
-		.popover-title {
-			color: #EE1C25;
-		}
+.popover-title {
+	color: #EE1C25;
+}
+
+
 
 	/*Lista ordenada alpha roja*/
 		.content ol {
