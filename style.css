@@ -949,6 +949,10 @@
     background-image: url(images/logo_NatGeoLearning.png);
     background-size: contain;
     left: 10px;
+    height: 60px;
+    width: 135px;
+    margin-top: 9px;
+    margin-right: 15px;
 }
 .content_type_clase_newcloseupdev .slider-indicators li.active,
  .content_type_clase_newcloseupdev .publisher-navbar li:hover,
@@ -964,7 +968,6 @@
     -moz-box-shadow: 0px 6px 8px #ffd70042;
     -webkit-box-shadow: 0px 6px 8px #ffd70042;
     box-shadow: 0px 6px 8px #ffd70042;
-    height: 75px;
 }
 .content_type_clase_newcloseupdev .slider-indicators li {
     background-color: #fff0;
@@ -978,41 +981,26 @@
 	margin-left: 15px
 }
 
-/*------ TITULO 1 ------*/
-	/*Titulo 1*/
-		.bck-title1 {
-			font-size: 3.2rem;
-			font-weight: normal;
-			color: #00ADEE;
-		}
+/*------ TITULO 1 - Cover ------*/
+.bck-title-1 {
+    font-size: 3.8rem;
+    font-weight: 300;
+    padding: 2px 50px;
+    text-align: right;
+    background: #FFF;
+}
+/*------ TITULO 2 - Intro secciones ------*/
+.bck-title-2 {
+    color: #00803E;
+    font-size: 2.0rem;
+}
+/*------ TITULO 3 - Título en lecturas ------*/
+.bck-title-3 {
+    font-size: 5.0rem;
+}
 
-	/*Titulo 2*/
-		.bck-title2 {
-			font-size: 2.4rem;
-			font-weight: bold;
-			color: #EE1C25;
-		}
 
-	/*Titulo video*/
-		.titlevideo {
-			background-color: #00ADEE;
-			padding: 4% 5% 1% 10%;
-			color: #fff;
-			font-size: 3.5rem;
-		}
 
-		.titlevideo:before {
-			content: "\f03d";
-			font-family: FontAwesome;
-			font-style: normal;
-			font-weight: normal;
-			text-decoration: inherit;
-			color: #fff;
-			font-size: 3.0rem;
-			padding-left: 15px;
-			position: absolute;
-			left: 0;
-		}
 
 	/*Caja negra
 	BOX 1*/
