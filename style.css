@@ -1197,6 +1197,18 @@
     padding-left: 0;
     counter-reset: bck-li-counter;
 }
+.cke_contents .bck-ol li,
+ .cke_contents ol li,
+  .content .bck-ol li,
+   .content ol li {
+    list-style-type: none;
+    margin-bottom: 16px;
+    counter-increment: bck-li-counter;
+    line-height: 1.1rem;
+    position: relative;
+    display: block;
+    padding-left: 30px;
+}
 .cke_contents ol li:before,
 .cke_contents .bck-ol ol li:before,
  .content ol li:before,
