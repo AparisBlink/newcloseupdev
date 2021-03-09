@@ -1138,6 +1138,12 @@
     width: calc(100% + 80px);
     margin-left: -40px !important;
 }
+.bck-box-4 > .bck-content {
+    padding: 10px 40px;
+    color: #fff;
+    background-color: #091E27;
+    font-family: serif;
+}
 
 /*--- CAJA 05 - Your ideas ---*/
 .bck-box-5,
@@ -1148,7 +1154,7 @@
 }
 .bck-box-5:before {
     content: "";
-    background: url(/useruploads/r/a/221179522/activity_other_imported/your_ideas.png);
+    background: url(images/icon_yourideas.png);
     border-radius: 0;
     line-height: inherit;
     background-size: contain;
