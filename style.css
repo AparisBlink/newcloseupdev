@@ -986,8 +986,8 @@
 /*-------------------------*/
 /*------ TITULO 1 - Cover ------*/
 .bck-title-1 {
+	font-family: "AvenirLTStd-Light", sans-serif
     font-size: 3.8rem;
-    font-weight: 300;
     padding: 2px 50px;
     text-align: right;
     background: #FFF;
@@ -1007,8 +1007,29 @@
 /*------------------*/
 
 .bck-enfasis-1 {
-	
+	font-family: "AvenirLTStd-Light", sans-serif;	
 }
+.bck-enfasis-2 {
+	font-family: "PalatinoLTStd", serif;	
+}
+.bck-enfasis-3 {
+	font-family: "TektonPro", cursive;	
+}
+.bck-enfasis-4 {
+    color: #FFD700;
+    font-size: 7rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    vertical-align: baseline;	
+}
+.bck-enfasis-5 {
+	color: #fff;
+    background: #4d3e99;
+    font-size: 17px;
+    padding: 0 5px;
+    border-radius: 6px;	
+}
+
 
 
 	/*Caja negra
