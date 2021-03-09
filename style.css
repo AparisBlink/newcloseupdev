@@ -1189,6 +1189,14 @@
 }
 
 /*Listas ordenadas*/
+.cke_contents .bck-ol,
+ .cke_contents ol,
+  .content .bck-ol,
+   .content ol {
+    list-style-type: none;
+    padding-left: 0;
+    counter-reset: bck-li-counter;
+}
 .cke_contents ol li:before,
 .cke_contents .bck-ol ol li:before,
  .content ol li:before,
