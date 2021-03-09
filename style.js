@@ -14,26 +14,26 @@
 		ckEditorStyles: {
 			name: 'newcloseupdev',
 			styles: [
-				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title-1'} },
-				{ name: 'Título 2', element: 'h4', attributes: { 'class': 'bck-title-2'} },
-				{ name: 'Título 3', element: 'h4', attributes: { 'class': 'bck-title-3'} },
+				{ name: 'T.01 Cover', element: 'h4', attributes: { 'class': 'bck-title-1'} },
+				{ name: 'T.02 Sections', element: 'h4', attributes: { 'class': 'bck-title-2'} },
+				{ name: 'T.03 Lecture', element: 'h4', attributes: { 'class': 'bck-title-3'} },
 				{ name: 'Título 4', element: 'h4', attributes: { 'class': 'bck-title-4'} },
 				{ name: 'Título 5', element: 'h4', attributes: { 'class': 'bck-title-5'} },
 				{ name: 'Título 6', element: 'h4', attributes: { 'class': 'bck-title-6'} },
 
 
-				{ name: 'Enfasis audio', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
-				{ name: 'Enfasis 02 audio', element: 'span', attributes: { 'class': 'bck-enfasis-02'} },
-				{ name: 'Enfasis 3', element: 'span', attributes: { 'class': 'bck-enfasis-03'} },
-				{ name: 'Enfasis 4', element: 'span', attributes: { 'class': 'bck-enfasis-04'} },
-				{ name: 'Enfasis 5', element: 'span', attributes: { 'class': 'bck-enfasis-05'} },
+				{ name: 'E.01 AvenirLight', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
+				{ name: 'E.02 Palatino', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
+				{ name: 'E.03 Tekton', element: 'span', attributes: { 'class': 'bck-enfasis-3'} },
+				{ name: 'E.04 Number Cover', element: 'span', attributes: { 'class': 'bck-enfasis-4'} },
+				{ name: 'E.05 Audio', element: 'span', attributes: { 'class': 'bck-enfasis-5'} },
 
 
-				{ name: 'Caja 01', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
-				{ name: 'Caja 02', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
-				{ name: 'Caja 03', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-3' } },
-				{ name: 'Caja 04', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-4' } },
-				{ name: 'Caja 05', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-5' } },
+				{ name: 'Box 01 Word Focus ', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
+				{ name: 'Box 02 Exam Tip', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
+				{ name: 'Box 03 Exam Task', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-3' } },
+				{ name: 'Box 04 100%', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-4' } },
+				{ name: 'Box 05 Your ideas', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-5' } },
 
 
 				{ name: 'Lista Ordenada Alpha roja', element: 'ol', attributes: { 'class': 'bck-ol' } },
