@@ -963,6 +963,39 @@
 	margin-right: 2px;
 	margin-left: 15px
 }
+.bck-img2-figure figcaption {
+    z-index: 10;
+    display: block;
+    margin-top: -10px;
+    background-color: #001822;
+    color: #fff;
+    border-left: 8px solid #FFD700;
+    text-align: left;
+    padding: 5px;
+    font-weight: bold;
+}
+
+/*-------- HEADER -----------*/
+.content_type_clase_newcloseupdev #actividad .content .header .title {
+    background: none;
+    font-family: 'AvenirLTStd-Light';
+    font-weight: normal;
+    color: #0084B5;
+    border-bottom: 1px solid #FFD700;
+}
+.content_type_clase_newcloseupdev #actividad .content .header .title h3 {
+    font-size: 3.4rem;
+    background: none;
+    display: block;
+    padding: 0;
+    min-width: 0;
+    margin-left: 0;
+    font-weight: normal;
+    max-width: 100%;	
+}
+.content_type_clase_newcloseupdev #actividad .content .header .title h3:before {
+	display: none;
+}
 
 /*--------------------------*/
 /*---------- TÍTULOS----------*/
@@ -983,6 +1016,10 @@
 /*------ TITULO 3 - Título en lecturas ------*/
 .bck-title-3 {
     font-size: 5.0rem;
+}
+.bck-title-4 {
+    font-family: 'AvenirLTStd-Light';
+    font-size: 1.5rem;
 }
 
 /*------------------*/
@@ -1152,6 +1189,7 @@
     background-color: #DCE688;
     text-indent: 0px;
     padding: 8px 10px 8px 76px;
+    position: relative;
 }
 .bck-box-5:before {
     content: "";
@@ -1162,6 +1200,10 @@
     background-repeat: no-repeat;
     height: 88px;
     border: 0;
+    position: absolute;
+    top: -17px;
+    width: 100px;
+    left: -20px;
 }
 .bck-box-5 ul li:before {
     background: #922790;
