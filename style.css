@@ -667,25 +667,7 @@
 		float: left;
 	}
 
-	.bck-box {
-		padding: 10px 20px;
-		border: 10px 0px;
-		word-break: break-word;
-	}
 
-	.bck-box.center {
-		margin: 0 auto;
-	}
-
-	.bck-box.left {
-		float: left;
-		margin-right: 25px;
-	}
-
-	.bck-box.right {
-		float: right;
-		margin-left: 25px;
-	}
 
 	.bck-box.box-actividad {
 		border-radius: 25px;
@@ -1033,6 +1015,24 @@
 /*------------------------*/
 /*------- CAJAS ---------*/
 /*-----------------------*/
+.bck-box.center {
+    margin: inherit;
+}
+.bck-box {
+	padding: 10px 20px;
+	border: 0px;
+	word-break: break-word;
+}
+
+.bck-box.left {
+	float: left;
+	margin-right: 25px;
+}
+
+.bck-box.right {
+	float: right;
+	margin-left: 25px;
+}
 
 /*--- CAJA 01 - Word focus---*/
 .bck-box.bck-box-1 {
@@ -1075,6 +1075,7 @@
     position: absolute;
     top: -41px;
     right: 0;
+    min-width: 110px;
 }
 .bck-box-2 > .bck-title:before {
     content: "";
@@ -1106,6 +1107,7 @@
     padding: 2px 25px;
     position: absolute;
     top: -42px;
+    min-width: 110px;
 }
 .bck-box-3 > .bck-title:before {
     content: "";
@@ -1155,6 +1157,7 @@
 .bck-box-5 > .bck-content {
     padding: 0;
 }
+
 
 	/*Tool tip*/
 		.bck-tooltip {
