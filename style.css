@@ -1031,7 +1031,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 /*-------------------------*/
 /*------ TITULO 1 - Cover ------*/
 .bck-title-1 {
-	font-family: "AvenirLTStd-Light", sans-serif
+	font-family: "AvenirLTStd-Light", sans-serif;
     font-size: 3.8rem;
     padding: 2px 50px;
     text-align: right;
@@ -1220,6 +1220,10 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     background-color: #091E27;
     font-family: serif;
 }
+.cke_contents .bck-box-4 {
+    width: 100%;
+    margin-left: 0;
+}
 
 /*--- CAJA 05 - Your ideas ---*/
 .bck-box-5,
@@ -1258,14 +1262,23 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     width: calc(100% + 120px);
     margin-left: -60px !important;
 }
-
+.cke_contents .bck-box-6{
+    width: 100%;
+    margin-left: 0;
+}
 /*CAJA 7 - Cover*/
 .bck-box-7.center {
     margin: 0;
+    padding: 0;
+    position: relative;
 }
 .bck-box.bck-box-7 > .bck-content {
     position: absolute;
     bottom: 76px;
+}
+.cke_contents .bck-box-7 > .bck-content{
+	position: relative;
+	bottom: 0;
 }
 
 /*--- CAJA 08 - Caja Cover 2 ---*/
@@ -1396,7 +1409,10 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 .cke_contents .bck-ol-01 li {
 	margin-left: -30px;
 }
-
+.content .bck-box .bck-ol-01 li,
+.cke_contents  .bck-box  .bck-ol-01 li {
+	margin-left: 0;
+}
 /*-Lista ordenada 2 l.abc black*/
 .content .bck-ol-02 li:before,
 .cke_contents .bck-ol-02 li:before {
@@ -1434,7 +1450,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 }
 /*Cover*/
 #actividad .cover .class_slide {
-    padding: 0;
+    padding: 10px 0;
 }
 .cover .main-navigator {
     display: none;
@@ -1442,7 +1458,9 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 #actividad .carousel-inner .cover .item-container {
     padding-bottom: 0;
 }
-
+#actividad .carousel-inner .cover .header {
+    display: none;
+}
 	/*slide test*/
 		.content_type_clase_newcloseupdev #actividad .workspace.test .respuestas li {
 			width: 33%;
