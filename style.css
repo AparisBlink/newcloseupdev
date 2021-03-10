@@ -1216,7 +1216,8 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     background-color: #091E27;
     font-family: serif;
 }
-.cke_contents .bck-box-4 {
+.cke_contents .bck-box-4,
+.cke_contents .bck-box.center.bck-box-4 {
     width: 100%;
     margin-left: 0;
 }
@@ -1258,7 +1259,8 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     width: calc(100% + 120px);
     margin-left: -60px !important;
 }
-.cke_contents .bck-box-6{
+.cke_contents .bck-box-6,
+.cke_contents .bck-box.center.bck-box-6{
     width: 100%;
     margin-left: 0;
 }
