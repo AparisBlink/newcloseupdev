@@ -915,17 +915,45 @@
 
 /*Close Up 2021*/
 /*Generales */
-	#actividad .class_slide {
-    	padding: 40px 60px 0px 60px;
-    }
-	.content_type_clase_newcloseupdev #actividad .texto_curso {
-		font-size: 1.8rem;
-		font-family: "AvenirLTsd", sans-serif;
-	}
-	/*Titulo de la slide*/
-		.content_type_clase_newcloseupdev #actividad .content .header .title {
-			display: none;
-		}
+a:hover, a:active, a:focus {
+    outline: 0;
+    color: #ffd700;
+    text-decoration: none;
+}
+#actividad .class_slide {
+   	padding: 40px 60px 0px 60px;
+}
+.content_type_clase_newcloseupdev #actividad .texto_curso {
+	font-size: 1.8rem;
+	font-family: "AvenirLTsd", sans-serif;
+}
+.bck-i-fullscreen-wrapper {
+	padding: 0;
+}
+
+/*--------- TOC --------*/
+#indice .unit-content {
+	border-radius: 0;
+}
+#indice .units ul li {
+    border-radius: 0;
+    -moz-box-shadow: 4px 5px 4px #00000030;
+    -webkit-box-shadow: 4px 5px 4px #00000030;
+    box-shadow: 4px 5px 4px #00000030;
+    background: #fff;
+}
+#indice .units ul li.active:not(.disabled),
+ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
+  #indice .units ul li:focus:not(.disabled) {
+    background: #FFD700;
+}
+body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
+ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
+    color: #000;
+}
+#indice .units ul li a .title {
+    padding: 8px;
+}
 
 /*Nav bar*/
 .content_type_clase_newcloseupdev .navbar-content:before {
@@ -977,6 +1005,7 @@
 
 /*-------- HEADER -----------*/
 .content_type_clase_newcloseupdev #actividad .content .header .title {
+	display: block;
     background: none;
     font-family: 'AvenirLTStd-Light';
     font-weight: normal;
@@ -1048,6 +1077,15 @@
     font-size: 17px;
     padding: 0 5px;
     border-radius: 6px;	
+}
+.bck-enfasis-6 {
+	color: #ED155B;
+}
+.bck-enfasis-7 {
+	color: #ED155B;
+}
+.bck-enfasis-8 {
+	color: #0084B5;
 }
 
 /*------------------------*/
@@ -1221,14 +1259,84 @@
     margin-left: -60px !important;
 }
 
-/*Tool tip*/
-.bck-tooltip {
-	text-decoration: none;
-	color: #EE1C25;
+/*CAJA 7 - Cover*/
+.bck-box-7.center {
+    margin: 0;
+}
+.bck-box.bck-box-7 > .bck-content {
+    position: absolute;
+    bottom: 76px;
 }
 
+/*--- CAJA 08 - Caja Cover 2 ---*/
+.bck-box-8,
+.bck-box.center.bck-box-8 {
+    margin: 0;
+    width: 	70%;
+}
+.bck-box-8 > .bck-title {
+    background: #001822;
+    color: #fff;
+    border-left: 10px solid #FFD700;
+    margin-bottom: 15px;
+    display: inline-block;	
+    padding: 2px 18px;
+}
+.bck-box-8 > .bck-content {
+    background: #FFD700;
+    padding: 10px 25px;
+}
+
+/*--- CAJA 09 - LOOK! ---*/
+.bck-box-9,
+.bck-box.center.bck-box-9 {
+    background: #FFD700;
+    color: #4D3E99;
+    font-weight: bold;
+    display: inline-block;
+    padding: 2px 15px;
+}
+.bck-box.bck-box-9 > .bck-content {
+    border: 2px solid gold;
+    padding: 15px 10px;
+}
+
+/*--- CAJA 10 - Simple Blue ---*/
+.bck-box-10,
+.bck-box.center.bck-box-10 {
+    background-color: #E0ECF3;
+}
+
+/*--- CAJA 11 - Simple Orange ---*/
+.bck-box-11,
+.bck-box.center.bck-box-11 {
+    background-color: #FEF0DB;
+}
+
+/*--- CAJA 11 - Simple Gray ---*/
+.bck-box-12,
+.bck-box.center.bck-box-12 {
+    background-color: #DCDCDE;
+}
+/*-----------------*/
+
+/*Descripción emergente*/
+.bck-tooltip {
+    text-decoration: none;
+    color: #EE1C25;
+    color: inherit;
+    font-weight: bold;
+    color: gold;
+    cursor: pointer;
+}
 .popover-title {
-	color: #EE1C25;
+    color: #FFD700;
+    font-weight: bold;
+    background: #001822;
+    border-radius: 0;
+}
+.popover {
+	border-radius: 0;
 }
 
 /*Listas ordenadas*/
@@ -1319,19 +1427,21 @@
 			text-align: center;
 		}
 
-	/*SECCIÓN portada*/
-		.content_type_clase_newcloseupdev #actividad .portada .class_slide {
-		    padding: 0px;
-		}
-
-		.content_type_clase_newcloseupdev #actividad .carousel-inner .portada .item-container {
-		    padding-bottom: 0px;
-		}
-
-		.content_type_clase_newcloseupdev #actividad .content .portada img:not(.bck-cam-button) {
-		    margin-top: 0px;
-		    margin-bottom: 0px;
-		}
+/*Secciones*/
+/*Reading*/
+#actividad .reading .class_slide {
+    padding-top: 0;
+}
+/*Cover*/
+#actividad .cover .class_slide {
+    padding: 0;
+}
+.cover .main-navigator {
+    display: none;
+}
+#actividad .carousel-inner .cover .item-container {
+    padding-bottom: 0;
+}
 
 	/*slide test*/
 		.content_type_clase_newcloseupdev #actividad .workspace.test .respuestas li {
