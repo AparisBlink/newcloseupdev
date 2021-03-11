@@ -28,7 +28,7 @@
 				{ name: 'E.04 Number Cover', element: 'span', attributes: { 'class': 'bck-enfasis-4'} },
 				{ name: 'E.05 Audio', element: 'span', attributes: { 'class': 'bck-enfasis-5'} },
 				{ name: 'E.06 Pink', element: 'span', attributes: { 'class': 'bck-enfasis-6'} },
-				{ name: 'E.06 Example', element: 'span', attributes: { 'class': 'bck-enfasis-7'} },
+				{ name: 'E.07 Example', element: 'span', attributes: { 'class': 'bck-enfasis-7'} },
 
 
 				{ name: 'Box 01 Word Focus ', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
@@ -43,6 +43,11 @@
 				{ name: 'Box 10 Simple blue', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-10' } },
 				{ name: 'Box 11 Simple orange', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-11' } },
 				{ name: 'Box 12 Simple Gray', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-12' } },
+				{ name: 'Box 13 Useful Language', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-13' } },
+				{ name: 'Box 14 Learning Focus', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-14' } },
+				{ name: 'Box 15 Chat Green', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-15' } },
+				{ name: 'Box 16 Chat Blue', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-16' } },
+				{ name: 'Box 17 Chat Organge', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-17' } },
 
 
 				{ name: 'L.123 Pink ', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-01' } },
