@@ -1059,7 +1059,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 }
 .bck-title-5:before {
     content: "";
-    background-image: url(https://github.com/AparisBlink/newcloseupdev/blob/main/images/icon-grammar-reference.png);
+    background-image: url(images/icon-grammar-reference.png);
     padding: 10px;
     background-size: contain;
 }
