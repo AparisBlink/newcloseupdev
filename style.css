@@ -1523,6 +1523,8 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     font-weight: bold;
     color: gold;
     cursor: pointer;
+    background-color: #001822;
+    padding: 0px 5px;
 }
 .popover-title {
     color: #FFD700;
@@ -1614,6 +1616,30 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 }
 	
 /*Archivos adjuntos*/
+.content_type_clase_newcloseupdev .bck-file-attach img {
+    filter: brightness(0.0);
+    -webkit-filter: brightness(0.0);
+}
+.content_type_clase_newcloseupdev .bck-sub-label:link,
+ .content_type_clase_newcloseupdev .bck-file-label:link,
+  .content_type_clase_newcloseupdev .bck-sub-label:hover,
+   .content_type_clase_newcloseupdev .bck-file-label:hover,
+    .content_type_clase_newcloseupdev .bck-sub-label:active,
+     .content_type_clase_newcloseupdev .bck-file-label:active {
+    color: gold;
+}
+.content_type_clase_newcloseupdev .bck-sub-label,
+ .content_type_clase_newcloseupdev .bck-file-label {
+    font-weight: normal;
+    color: #fff;
+    border-radius: 0;
+    vertical-align: middle;
+    padding: 2px 20px;
+    text-align: left;
+    background: #001822;
+    color: #fff;
+}
+
 .content_type_clase_newcloseupdev .bck-sub-label,
 .content_type_clase_newcloseupdev .bck-file-label {
 	font-weight: 400;
@@ -1637,6 +1663,82 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     border-radius: 0;
     height: 22px !important;
     vertical-align: text-bottom;
+}
+
+/*Popup*/
+.popover-template {
+	font-family: 'AvenirLTsd';
+    border-radius: 0;
+}
+#actividad .info-button {
+    color: gold;
+    background-color: #001822;
+    border-radius: 0;
+    border: 0;
+    box-shadow: 2px 2px 6px #00000057;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.info-popover .popover-title:before,
+ .popover-template .popover-title:before {
+ 	display: none;
+ }
+
+.info-popover .popover-title, .popover-template .popover-title {
+    padding: 10px 15px;
+    color: gold;
+    background: #001822;
+}
+.info-template.shown {
+    border-radius: 0;
+    max-width: 200px;
+    width: auto;
+    box-shadow: -1px 3px 9px #00000061;
+    background: #001822;
+    border: 2px solid gold;
+    font-family: 'AvenirLTsd';
+    padding-top: 20px;
+}
+.info-template .info-title {
+    color: #fff;
+}
+.info-template .info-icon {
+    border-radius: 0;
+    background: #001822;
+    color: gold;
+    border: 2px solid gold;
+    height: 28px;
+    width: 28px;
+}
+
+/*-- Desplegable --*/
+.bck-dropdown-button {
+    padding: 10px;
+    cursor: pointer;
+} 
+.fa-chevron-down:before {
+    content: "\f078";
+    font-size: 3.0rem;
+}
+.fa-chevron-up:before {
+    content: "\f077";
+    font-size: 3.0rem;
+}
+.bck-dropdown-titulo {
+    color: #0084B5;
+    font-weight: bold;
+}
+.bck-dropdown-button {
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 2px 3px 6px #0000004f;
+}
+.bck-dropdown-content {
+    background-color: unset;
+    border-bottom: 3px solid gold;
+}
+.bck-dropdown {
+    margin-bottom: 15px;
 }
 
 /*Secciones*/
