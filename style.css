@@ -1503,8 +1503,8 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 }
 .bck-box-22 > .bck-content {
     padding: 10px 40px;
-    color: #fff;
-    background-color: #adadad;
+    color: #001822;
+    background-color: #dddddd;
 }
 
 .cke_contents .bck-box-22,
