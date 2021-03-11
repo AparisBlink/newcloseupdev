@@ -1041,6 +1041,12 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     background-position: center;
     margin-right: 5px;
 }
+/*---- TÍTULO 6 --------*/
+.bck-title-6 {
+    font-family: 'AvenirLTStd-Light';
+    font-size: 1.7rem;
+    color: gold;
+}
 
 /*------------------*/
 /*------ ÉNFASIS --------*/
