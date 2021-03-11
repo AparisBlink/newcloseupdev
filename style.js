@@ -49,6 +49,9 @@
 				{ name: 'Box 16 Chat Blue', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-16' } },
 				{ name: 'Box 17 Chat Organge', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-17' } },
 				{ name: 'Box 18 Remember', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-18' } },
+				{ name: 'Box 19 Mind', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-19' } },
+				{ name: 'Box 20 Project icon', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-20' } },
+				{ name: 'Box 21 Project ', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-21' } },
 
 
 				{ name: 'L.123 Pink ', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-01' } },
