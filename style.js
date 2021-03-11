@@ -29,6 +29,8 @@
 				{ name: 'E.05 Audio', element: 'span', attributes: { 'class': 'bck-enfasis-5'} },
 				{ name: 'E.06 Pink', element: 'span', attributes: { 'class': 'bck-enfasis-6'} },
 				{ name: 'E.07 Example', element: 'span', attributes: { 'class': 'bck-enfasis-7'} },
+				{ name: 'E.08 Higlight', element: 'span', attributes: { 'class': 'bck-enfasis-8'} },
+
 
 
 				{ name: 'Box 01 Word Focus ', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
