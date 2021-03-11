@@ -1046,9 +1046,22 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 .bck-title-3 {
     font-size: 5.0rem;
 }
+/*------ TITULO 4 - Título descripción titulo ------*/
 .bck-title-4 {
     font-family: 'AvenirLTStd-Light';
     font-size: 1.5rem;
+}
+/*----- TÍTULO 5 -----------*/
+.bck-title-5 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #00A88E;
+}
+.bck-title-5:before {
+    content: "";
+    background-image: url(https://github.com/AparisBlink/newcloseupdev/blob/main/images/icon-grammar-reference.png);
+    padding: 10px;
+    background-size: contain;
 }
 
 /*------------------*/
@@ -1299,8 +1312,8 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 }
 
 /*--- CAJA 09 - LOOK! ---*/
-.bck-box-9,
-.bck-box.center.bck-box-9 {
+.bck-box-9 > .bck-title,
+.bck-box.center.bck-box-9 > .bck-title {
     background: #FFD700;
     color: #4D3E99;
     font-weight: bold;
@@ -1324,10 +1337,28 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     background-color: #FEF0DB;
 }
 
-/*--- CAJA 11 - Simple Gray ---*/
+/*--- CAJA 12 - Simple Gray ---*/
 .bck-box-12,
 .bck-box.center.bck-box-12 {
     background-color: #DCDCDE;
+}
+/*--- CAJA 13 - Useful English ---*/
+.bck-box-13,
+.bck-box.center.bck-box-13 {
+    background-color: #B9E6FB;
+}
+.bck-box-13 > .bck-title,
+.bck-box.center.bck-box-13 > .bck-title {
+    color: #0D4DA2;
+}
+/*--- CAJA 14 - Learning Focus ---*/
+.bck-box-14,
+.bck-box.center.bck-box-14 {
+    background-color: #DBEAB8;
+}
+.bck-box-14 > .bck-title,
+.bck-box.center.bck-box-14 > .bck-title {
+    color: #007948;
 }
 /*-----------------*/
 
