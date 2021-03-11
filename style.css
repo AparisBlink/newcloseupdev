@@ -1060,8 +1060,11 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 .bck-title-5:before {
     content: "";
     background-image: url(images/icon-grammar-reference.png);
-    padding: 10px;
+    padding: 5px 11px;
     background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
 }
 
 /*------------------*/
@@ -1227,8 +1230,8 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     padding: 10px 40px;
     color: #fff;
     background-color: #091E27;
-    font-family: serif;
 }
+
 .cke_contents .bck-box-4,
 .cke_contents .bck-box.center.bck-box-4 {
     width: 100%;
@@ -1360,6 +1363,67 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 .bck-box.center.bck-box-14 > .bck-title {
     color: #007948;
 }
+/*--- CAJA 15 - CHat Green ---*/
+.bck-box-15,
+.bck-box.center.bck-box-15 {
+	background-color: #D8E9AE;
+    position: relative;
+    border-radius: 15px;
+}
+.bck-box-15:before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 19px solid #dcdcde;
+    border-right: 0px solid transparent;
+    border-left: 21px solid transparent;
+    bottom: -17px;
+    margin: 0;
+    left: 16px;
+}
+/*--- CAJA 16 - CHat Blue ---*/
+.bck-box-16,
+.bck-box.center.bck-box-16 {
+	background-color: #E0ECF3;
+    position: relative;
+    border-radius: 15px;
+}
+.bck-box-16:before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 19px solid #E0ECF3;
+    border-right: 21px solid transparent;
+    border-left: 0px solid transparent;
+    bottom: -17px;
+    margin: 0;
+    left: 16px;
+}
+/*--- CAJA 17 - CHat Orange ---*/
+.bck-box-17,
+.bck-box.center.bck-box-17 {
+	background-color: #FFEEA9;
+    position: relative;
+    border-radius: 15px;
+}
+.bck-box-17:before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 19px solid #FFEEA9;
+    border-right: 0px solid transparent;
+    border-left: 21px solid transparent;
+    bottom: -17px;
+    margin: 0;
+    left: 16px;
+}
+
+
+
+
 /*-----------------*/
 
 /*Descripción emergente*/
