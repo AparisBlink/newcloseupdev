@@ -18,8 +18,8 @@
 				{ name: 'T.02 Sections', element: 'h4', attributes: { 'class': 'bck-title-2'} },
 				{ name: 'T.03 Lecture', element: 'h4', attributes: { 'class': 'bck-title-3'} },
 				{ name: 'T.04 Description', element: 'h4', attributes: { 'class': 'bck-title-4'} },
-				{ name: 'Título 5', element: 'h4', attributes: { 'class': 'bck-title-5'} },
-				{ name: 'Título 6', element: 'h4', attributes: { 'class': 'bck-title-6'} },
+				{ name: 'T.05 Grammar Reference 5', element: 'h4', attributes: { 'class': 'bck-title-5'} },
+				{ name: 'T.06', element: 'h4', attributes: { 'class': 'bck-title-6'} },
 
 
 				{ name: 'E.01 AvenirLight', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
