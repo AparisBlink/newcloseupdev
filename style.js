@@ -48,6 +48,7 @@
 				{ name: 'Box 15 Chat Green', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-15' } },
 				{ name: 'Box 16 Chat Blue', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-16' } },
 				{ name: 'Box 17 Chat Organge', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-17' } },
+				{ name: 'Box 18 Remember', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-18' } },
 
 
 				{ name: 'L.123 Pink ', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-01' } },
