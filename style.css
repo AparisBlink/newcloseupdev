@@ -1315,6 +1315,10 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 }
 
 /*--- CAJA 09 - LOOK! ---*/
+.bck-box-9, .bck-box.center.bck-box-9 {
+    padding: 0;
+}
+
 .bck-box-9 > .bck-title,
 .bck-box.center.bck-box-9 > .bck-title {
     background: #FFD700;
@@ -1425,16 +1429,31 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 }
 
 /*--- CAJA 18 - Remember ---*/
-.bck-box-19 > .bck-title,
-.bck-box.center.bck-box-19 > .bck-title {
-    background: #FFD700;
-    color: #4D3E99;
+.bck-box-18, .bck-box.center.bck-box-18 {
+    padding: 0;
+    position: relative;
+}
+.bck-box-18:before {
+    content: "!";
+    position: absolute;
+    color: #F36F23;
+    width: 20px;
+    height: auto;
+    left: -18px;
+    font-size: 5rem;
+    font-weight: bold;
+    top: 8px;
+}
+.bck-box-18 > .bck-title,
+.bck-box.center.bck-box-18 > .bck-title {
+    background: #F36F23;
+    color: #fff;
     font-weight: bold;
     display: inline-block;
     padding: 2px 15px;
 }
-.bck-box.bck-box-19 > .bck-content {
-    border: 2px solid gold;
+.bck-box.bck-box-18 > .bck-content {
+    border: 2px solid #F36F23;
     padding: 15px 10px;
 }
 
