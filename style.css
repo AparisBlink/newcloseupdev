@@ -1369,13 +1369,14 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 	background-color: #D8E9AE;
     position: relative;
     border-radius: 15px;
+    margin-bottom: 30px;
 }
 .bck-box-15:before {
     content: "";
     position: absolute;
     width: 0px;
     height: 0px;
-    border-top: 19px solid #dcdcde;
+    border-top: 19px solid #D8E9AE;
     border-right: 0px solid transparent;
     border-left: 21px solid transparent;
     bottom: -17px;
@@ -1388,6 +1389,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 	background-color: #E0ECF3;
     position: relative;
     border-radius: 15px;
+    margin-bottom: 30px;
 }
 .bck-box-16:before {
     content: "";
@@ -1407,6 +1409,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 	background-color: #FFEEA9;
     position: relative;
     border-radius: 15px;
+    margin-bottom: 30px;
 }
 .bck-box-17:before {
     content: "";
@@ -1421,6 +1424,19 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     left: 16px;
 }
 
+/*--- CAJA 18 - Remember ---*/
+.bck-box-19 > .bck-title,
+.bck-box.center.bck-box-19 > .bck-title {
+    background: #FFD700;
+    color: #4D3E99;
+    font-weight: bold;
+    display: inline-block;
+    padding: 2px 15px;
+}
+.bck-box.bck-box-19 > .bck-content {
+    border: 2px solid gold;
+    padding: 15px 10px;
+}
 
 
 
