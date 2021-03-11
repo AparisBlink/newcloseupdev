@@ -1457,7 +1457,26 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     padding: 15px 10px;
 }
 
+/* ----- Box 19 - Mind ----*/
+.bck-box-19,
+ .bck-box.bck-box-19.center {
+    padding: 0;
+    border-bottom: 1px solid #00b6b5;
+}
+.bck-box.bck-box-19.center > .bck-title {
+    background-color: #00B6B5;
+    padding: 3px 20px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 2.0rem;
+}
+.bck-box.bck-box-19.center > .bck-content {
+    padding: 5px 20px;
+}
 
+.bck-box-19 ul li:before {
+	background: #00b6b5;
+}
 
 /*-----------------*/
 
