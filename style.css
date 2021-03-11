@@ -1478,6 +1478,59 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 	background: #00b6b5;
 }
 
+/*---- BOX 20 - PROJECT ICON ----*/
+.bck-box.bck-box-20:before {
+    content: "";
+    position: absolute;
+    width: 75px;
+    height: 100%;
+    background-image: url(images/icon_yourproject.png);
+    right: -23px;
+    top: -33px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.bck-box-20,
+.bck-box.bck-box-20.center {
+    border: 1px solid #0067B3;
+    position: relative;
+}
+.bck-box.bck-box-20 > .bck-title {
+    font-weight: bold;
+    color: #0067B3;
+}
+/*---- BOX 21 - PROJECT ----*/
+.bck-box-21,
+.bck-box.bck-box-21.center {
+    border: 1px solid #0067B3;
+    position: relative;
+}
+.bck-box.bck-box-21 > .bck-title {
+    font-weight: bold;
+    color: #0067B3;
+}
+
+/*--- BOX 22 - Lecture Light ---*/
+.bck-box-22,
+.bck-box.center.bck-box-22 {
+    border: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    width: calc(100% + 120px);
+    margin-left: -60px;
+}
+.bck-box-22 > .bck-content {
+    padding: 10px 40px;
+    color: #fff;
+    background-color: #adadad;
+}
+
+.cke_contents .bck-box-22,
+.cke_contents .bck-box.center.bck-box-22 {
+    width: 100%;
+    margin-left: 0;
+}
+
 /*-----------------*/
 
 /*Descripción emergente*/
@@ -1550,7 +1603,9 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 /*-Lista ordenada 1- L.123 pink*/
 .content .bck-ol-01 li:before,
 .cke_contents .bck-ol-01 li:before {
-    color: #ED155B;
+   color: #ED155B;
+   font-size: 2.4rem;
+   line-height: 2.2rem;
 }
 .content .bck-ol-01 li,
 .cke_contents .bck-ol-01 li {
@@ -1558,6 +1613,9 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 }
 .content .bck-box .bck-ol-01 li,
 .cke_contents  .bck-box  .bck-ol-01 li {
+	margin-left: 0;
+}
+.cke_contents .bck-ol-01 li {
 	margin-left: 0;
 }
 /*-Lista ordenada 2 l.abc black*/
