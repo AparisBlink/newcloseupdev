@@ -34,7 +34,7 @@
 				{ name: 'Box 01 Word Focus ', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
 				{ name: 'Box 02 Exam Tip', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
 				{ name: 'Box 03 Exam Task', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-3' } },
-				{ name: 'Box 04 Lectures', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-4' } },
+				{ name: 'Box 04 Lecture Dark', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-4' } },
 				{ name: 'Box 05 Your ideas', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-5' } },
 				{ name: 'Box 06 IMG 100%', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-6' } },
 				{ name: 'Box 07 Cover', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-7' } },
@@ -52,6 +52,7 @@
 				{ name: 'Box 19 Mind', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-19' } },
 				{ name: 'Box 20 Project icon', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-20' } },
 				{ name: 'Box 21 Project ', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-21' } },
+				{ name: 'Box 22 Lecture Light ', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-22' } },
 
 
 				{ name: 'L.123 Pink Left', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-01' } },
