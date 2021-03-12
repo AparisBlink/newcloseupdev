@@ -358,15 +358,6 @@
 		color: #204E64;
 	}
 
-	.content_type_clase_newcloseupdev .slider-indicators li {
-		width: auto;
-		height: 35px;
-		background-color: #FFF;
-		margin: 0px 5px;
-		text-align: center;
-		color: #204E64;
-		padding: 0 7px;
-	}
 
 	.content_type_clase_newcloseupdev .slider-indicators li.active,
 	.content_type_clase_newcloseupdev .publisher-navbar li:hover,
@@ -923,7 +914,11 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     padding: 8px;
 }
 
-/*Nav bar*/
+/*Navbar*/
+.content_type_clase_newcloseupdev .publisher-navbar .dropdown button,
+.content_type_clase_newcloseupdev .publisher-navbar li {
+		border-radius: 0;
+}
 .content_type_clase_newcloseupdev .publisher-navbar .navbar-content {
 	font-family:"AvenirLTsd";
 }
@@ -955,12 +950,13 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     background-color: #fff0;
     color: #ffffff;
     border-right: 3px solid #ffffff;
+    padding: 0 12px 0 7px;
+    margin: 0
 }
 
 .content_type_clase_newcloseupdev .slider-indicator span {
-	width: auto;
-	margin-right: 2px;
-	margin-left: 15px
+    margin-right: 0;
+    margin-left: 0;
 }
 .bck-img2-figure figcaption {
     z-index: 10;
@@ -1611,6 +1607,55 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 	content: counter(bck-li-counter,lower-alpha);
     color: #ED155B;
 }
+
+/*Listas desordenadas*/
+.texto_curso ul li:before,
+ .cke_contents ul li:before,
+  .preview ul li:before,
+   .classify-item ul li:before,
+    #actividad .workspace.multiple-choice .js-item ul li:before,
+     #actividad .workspace.matching .box ul li:before,
+      #actividad .workspace.ordenar .js-rank-item ul li:before {
+	margin-top: 9px;
+}
+
+/*Lista desordenada 01 - Rosa*/
+.cke_contents .bck-ul-01 li:before,
+ .texto_curso .bck-ul-01 li:before {
+    background: #ED155B;
+}
+/*Lista desordenada 02 - Azul*/
+.cke_contents .bck-ul-02 li:before,
+ .texto_curso .bck-ul-02 li:before {
+    background: #0067B3;
+}
+/*Lista desordenada 03 - Amarilla*/
+.cke_contents .bck-ul-03 li:before,
+ .texto_curso .bck-ul-03 li:before {
+    background: #FFD700;
+}
+/*Lista desordenada 04 - Morada*/
+.cke_contents .bck-ul-04 li:before,
+ .texto_curso .bck-ul-04 li:before {
+    background: #922790;
+}
+/*Lista desordenada 05 - Verde*/
+.cke_contents .bck-ul-04 li:before,
+ .texto_curso .bck-ul-04 li:before {
+    background: #007948;
+}
+/*Lista desordenada 05 - Naranja*/
+.cke_contents .bck-ul-05 li:before,
+ .texto_curso .bck-ul-05 li:before {
+    background: #F36F23;
+}
+/*Lista desordenada 06 - Cian*/
+.cke_contents .bck-ul-06 li:before,
+ .texto_curso .bck-ul-06 li:before {
+    background: #00B6B5;
+}
+
+
 	
 /*Archivos adjuntos*/
 .content_type_clase_newcloseupdev .bck-file-attach img {
