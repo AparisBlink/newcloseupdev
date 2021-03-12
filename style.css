@@ -366,13 +366,6 @@
 		color: #204E64;
 	}
 
-	.content_type_clase_newcloseupdev .slider-indicator span {
-		display: block;
-		width: 200px;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: nowrap;
-	}
 
 	.content_type_clase_newcloseupdev .publisher-navbar .dropdown button {
 		width: auto;
@@ -966,6 +959,12 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 .content_type_clase_newcloseupdev .slider-indicator span {
     margin-right: 0;
     margin-left: 0;
+	display: block;
+	width: auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
 }
 .bck-img2-figure figcaption {
     z-index: 10;
