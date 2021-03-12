@@ -1020,7 +1020,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 }
 /*------ TITULO 3 - Título en lecturas ------*/
 .bck-title-3 {
-    font-size: 5.0rem;
+    font-size: 3.8rem;
 }
 /*------ TITULO 4 - Título descripción titulo ------*/
 .bck-title-4 {
@@ -1805,7 +1805,171 @@ table.bck-table-2 td {
     background: #73CEE2;
     border-color: white;
 }
+/*---------------------------------*/
+/*-------- BOTONERA Y ACTIVIDADES ------*/
+/*-----------------------------------*/
+	/*BOTONERA*/
+	.btn-danger,
+	.btn-danger[disabled] {
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	border: 2px solid #ffd700;
+	color: #ffd700;
+	background: white;
+	font-weight: 700;
+	}
+	.btn-danger:hover,
+		.btn-danger:focus,
+		.btn-danger:active,
+		.btn-danger.active,
+		.open .dropdown-toggle.btn-danger {
+	color: #fff;
+	background-color: #ffd700;
+	border-color: transparent;
+	}
+	.btn-primary,
+	.btn-primary.disabled,
+	.btn-primary.disabled:hover,
+	.btn-primary.disabled:focus {
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	border: 2px solid #001822;
+	color: #001822;
+	background: white;
+	font-weight: 700;
+	}
+	.btn-primary:not([disabled]):hover,
+	.btn-primary:not([disabled]):focus,
+	.btn-primary:not([disabled]):active,
+	.btn-primary.active,
+	.open .dropdown-toggle.btn-primary {
+	background-color: #001822;
+	border-color: #001822;
+	color: white
+	}
+	#actividad .content .review .attemps span {
+	background-color: #001822;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	}
+	.btn-primary[disabled],
+	.btn-primary[disabled]:focus {
+	color: #fff;
+	background-color: #bcbcbc;
+	border-color: #bcbcbc;
+	}
+	.btn-solution,
+	.btn-solution.disabled,
+	.btn-solution[disabled],
+	.btn-next,
+	.btn-next.disabled,
+	.btn-next[disabled] {
+	color: #00bdff;
+	background-color: white;
+	border-color: #00bdff;
+	border: 2px solid #00bdff;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	font-weight: 700;
+	}
+	.btn-solution:hover,
+	.btn-solution:focus,
+	.btn-solution:active,
+	.btn-next:hover, .btn-next:focus,
+	.btn-next:active,
+	.open .dropdown-toggle.btn-solution {
+	color: #fff;
+	background-color: #00bdff;
+	border-color: transparent;
+	}
+	/*---*/   
 
+	/*Actividades*/
+	/*Señalar respuesta*/
+	#actividad .workspace.chooseblanks .inline-answer a {
+	border-radius: 0;
+	vertical-align: baseline;
+	}
+
+	/*Respuesta multiple*/
+	#actividad .workspace.multiple-choice .opcion {
+	min-width: 100px;
+	border: 1px solid #d8d8d8;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	padding: 5px 15px;
+	cursor: pointer;
+	border-radius: 0;
+	box-shadow: 4px 1px 7px #00000038;
+	}
+	#actividad .workspace.multiple-choice .opcion.respuesta_over {
+	background-color: #ffd7001f;
+	border-color: #ffd7001f;
+	}
+	#actividad .workspace.multiple-choice .opcion.respuesta_checked {
+	border-color: #ffd700;
+	background-color: #ffd700;
+	}
+
+	/*Clasificar*/
+	#actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+	border: 2px solid #001822;
+	border-radius: 0;
+	}
+	#actividad .workspace.clasificar .clasificar_lista .classify-item {
+	border: 1px solid #001822;
+	border-radius: 0;
+	}
+	#actividad .workspace.clasificar .clasificar_conjuntos .group-name-top {
+	border-bottom: 1px solid #d8d8d8;
+	background: #001822;
+	color: #fff;
+	margin: 0px auto;
+	margin-bottom: 7px;
+	padding: 3px;
+	-webkit-box-shadow: 0px 4px 3px #0000001f;
+	-moz-box-shadow: 0px 4px 3px #0000001f;
+	box-shadow: 0px 4px 3px #0000001f;
+	}
+
+	/*Rellenar espacios*/
+	.content_type_clase_cengage2021demo .slide_main input {
+	background-color: #fff9d7;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+	box-shadow: inset 1px 0px 1px rgb(0 0 0 / 8%), outset 0 0 black;
+	-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	border: 0;
+	border-bottom: 1px solid #001822;
+	border-radius: 0;
+	}
+	.content_type_clase_cengage2021demo .slide_main input:focus {
+	border-top-color: #ffd700;
+	border-right-color: #ffd700;
+	border-bottom-color: #ffd700;
+	border-left-color: #ffd700;
+	outline-width: 0px;
+	outline-style: none;
+	box-shadow: 0px 1px 1px rgb(0 0 0 / 8%) inset, 2px 2px 3px #ffd700;
+	background-color: #fff;
+	}
+	.fillblanks-draggable-wrapper .response {
+	margin: 2px;
+	min-width: 100px;
+	border: 1px solid #001822;
+	display: inline-block;
+	border-radius: 0;
+	cursor: pointer;
+	}
+/*----------------------*/
 
 /*Secciones*/
 /*Cover*/
@@ -1862,38 +2026,45 @@ table.bck-table-2 td {
 	}
 /*MEDIA QUERIES*/
 @media (max-width: 579px) {
-.body_clase #actividad .carousel-inner .item-container {
-    margin-top: 0;
-}
+	.body_clase #actividad .carousel-inner .item-container {
+		margin-top: 0;
+	}
 }
 @media screen and (max-width: 768px) {
-#actividad .carousel-inner .class_slide {
-    padding: 40px 40px 0px;
-}
-.bck-box-4,
-.bck-box.center.bck-box-4 {
-    width: calc(100% + 80px);
-    margin-left: -40px;
-}
-.bck-box-6,
-.bck-box.center.bck-box-6 {
-    width: calc(100% + 80px);
-    margin-left: -40px !important;
-}
-.bck-box-22,
-.bck-box.center.bck-box-22 {
-    width: calc(100% + 80px);
-    margin-left: -40px;
-}
-.content_type_clase_newcloseupdev #actividad .content .blackheader .header .title {
-    width: calc(100% + 80px);
-    margin-left: -40px;
-    padding: 15px 40px 1px 40px;
-    margin-top: -40px;
-}
+	#actividad .carousel-inner .class_slide {
+		padding: 40px 40px 0px;
+	}
+	.bck-box-4,
+	.bck-box.center.bck-box-4 {
+		width: calc(100% + 80px);
+		margin-left: -40px;
+	}
+	.bck-box-6,
+	.bck-box.center.bck-box-6 {
+		width: calc(100% + 80px);
+		margin-left: -40px !important;
+	}
+	.bck-box-22,
+	.bck-box.center.bck-box-22 {
+		width: calc(100% + 80px);
+		margin-left: -40px;
+	}
+	.content_type_clase_newcloseupdev #actividad .content .blackheader .header .title {
+		width: calc(100% + 80px);
+		margin-left: -40px;
+		padding: 15px 40px 1px 40px;
+		margin-top: -40px;
+	}
 }
 @media screen and (max-width: 480px) {
 	#actividad .carousel-inner .item-container {
 		padding: 0;
 	}
+	.bck-title-3 {
+		font-size: 3.0rem;
+	}
+	.bck-title-1 {
+		font-size: 3.0rem;
+	}
+
 }
