@@ -21,7 +21,6 @@
 				{ name: 'T.05 Grammar Reference 5', element: 'h4', attributes: { 'class': 'bck-title-5'} },
 				{ name: 'T.06', element: 'h4', attributes: { 'class': 'bck-title-6'} },
 
-
 				{ name: 'E.01 AvenirLight', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
 				{ name: 'E.02 Palatino', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
 				{ name: 'E.03 Tekton', element: 'span', attributes: { 'class': 'bck-enfasis-3'} },
@@ -30,8 +29,6 @@
 				{ name: 'E.06 Pink', element: 'span', attributes: { 'class': 'bck-enfasis-6'} },
 				{ name: 'E.07 Example', element: 'span', attributes: { 'class': 'bck-enfasis-7'} },
 				{ name: 'E.08 Higlight', element: 'span', attributes: { 'class': 'bck-enfasis-8'} },
-
-
 
 				{ name: 'Box 01 Word Focus ', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
 				{ name: 'Box 02 Exam Tip', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
@@ -56,14 +53,19 @@
 				{ name: 'Box 21 Project ', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-21' } },
 				{ name: 'Box 22 Lecture Light ', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-22' } },
 
-
 				{ name: 'L.123 Pink Left', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-01' } },
 				{ name: 'L.abc Black', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-02' } },
 				{ name: 'L.abc pink', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-03' } },
 				{ name: 'L.123 pink', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-04' } },
 
 				{ name: 'U.List 01', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-01' } },
-				{ name: 'U.List 02', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-02' } }
+				{ name: 'U.List 02', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-02' } },
+
+				{ name: 'Table 02', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
+				{ name: 'Table 03', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-3'} },
+
+				{ name: 'Cell 02', element: 'td', attributes: { 'class': 'bck-td-2'} },
+				{ name: 'Cell 03', element: 'td', attributes: { 'class': 'bck-td-3'} },
 			]
 		},
 
