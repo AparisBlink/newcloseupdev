@@ -320,14 +320,7 @@
 		content: ''
 	}
 
-	.content_type_clase_newcloseupdev .publisher-navbar .navbar-content {
-		max-width: 960px;
-		margin: 0 auto;
-		padding-left: 0;
-		padding-right: 0;
-		text-align: center;
-		position: relative;
-	}
+
 
 	.content_type_clase_newcloseupdev .navbar-content:before {
 		content: " ";
@@ -931,6 +924,9 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 }
 
 /*Nav bar*/
+.content_type_clase_newcloseupdev .publisher-navbar .navbar-content {
+	font-family:"AvenirLTsd";
+}
 .content_type_clase_newcloseupdev .navbar-content:before {
     background-image: url(images/logo_NatGeoLearning.png);
     background-size: contain;
@@ -1743,6 +1739,16 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 }
 
 /*Tablas*/
+.content table.bck-table-2 {
+    border: 1px solid #73CEE2;
+}
+table.bck-table-2 td {
+    border-color: #73cee2;
+}
+.content table td.bck-td-2 {
+    background: #73CEE2;
+    border-color: white;
+}
 
 
 /*Secciones*/
