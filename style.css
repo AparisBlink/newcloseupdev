@@ -1636,20 +1636,6 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     background: #001822;
     color: #fff;
 }
-
-.content_type_clase_newcloseupdev .bck-sub-label,
-.content_type_clase_newcloseupdev .bck-file-label {
-	font-weight: 400;
-	background: #0F76BB;
-	color: #fff;
-	border-radius: 5px;
-	max-width: 100%;
-	display: inline-block;
-	margin: 5px;
-	padding: 5px 20px 5px 5px;
-	text-align: center;
-}
-
 /* Icono audio*/
 #actividad .player.audio {
     background-image: url(/useruploads/r/a/221070314/activity_other_imported/Cengage-New-Up-demo-audio_icon_835991.png);
@@ -1713,6 +1699,9 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     padding: 10px;
     cursor: pointer;
 } 
+.bck-dropdown-icon {
+	color: #0084B5;
+}
 .fa-chevron-down:before {
     content: "\f078";
     font-size: 3.0rem;
@@ -1736,6 +1725,19 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 }
 .bck-dropdown {
     margin-bottom: 15px;
+}
+
+/* Flipbox */
+body:not(.edit) .front .bck-flipbox-title, body:not(.edit) .front .bck-flipbox-section {
+    color: #0084b5;
+}
+body:not(.edit) .bck-flipbox-face.front, body:not(.edit) .bck-flipbox-face.back {
+    border-color: #ffd700;
+}
+body:not(.edit) .bck-flipbox-face.back {
+    color: #fff;
+    background-color: #0084b5;
+    border-color: #0084b5;
 }
 
 /*Tablas*/
