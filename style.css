@@ -1082,6 +1082,11 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 .bck-enfasis-7 {
 	color: #0084B5;
 }
+.bck-enfasis-8 {
+    background: #e0ecf3;
+    padding: 1px 5px;
+    border-radius: 5px;
+}
 /*------------------------*/
 /*------- CAJAS ---------*/
 /*-----------------------*/
@@ -1213,6 +1218,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     padding: 10px 40px;
     color: #fff;
     background-color: #091E27;
+	font-family: 'PalatinoLTStd';
 }
 
 .cke_contents .bck-box-4,
@@ -1506,6 +1512,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     padding: 10px 40px;
     color: #001822;
     background-color: #dddddd;
+	font-family: 'PalatinoLTStd';
 }
 
 .cke_contents .bck-box-22,
