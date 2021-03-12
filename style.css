@@ -921,6 +921,12 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 }
 .content_type_clase_newcloseupdev .publisher-navbar .navbar-content {
 	font-family:"AvenirLTsd";
+	max-width: 960px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    position: relative;	
 }
 .content_type_clase_newcloseupdev .navbar-content:before {
     background-image: url(images/logo_NatGeoLearning.png);
