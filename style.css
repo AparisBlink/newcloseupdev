@@ -1132,8 +1132,8 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 /*--- CAJA 02 - Exam tip ---*/
 .bck-box.bck-box-2, 
 .bck-box.center.bck-box-2 {
-    padding: 0px;
-    margin: 55px 10px 10px 10px;
+	padding: 0px;
+    margin: 55px 0px 15px 0px;
     position: relative;
 }
 .bck-box-2 > .bck-title {
@@ -1171,6 +1171,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     border: none;
     position: relative;
     margin-top: 55px;
+    padding: 0;
 }
 .bck-box-3 > .bck-title {
     text-align: left;
@@ -1741,11 +1742,10 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     margin-bottom: 15px;
 }
 
+/*Tablas*/
+
+
 /*Secciones*/
-/*Reading*/
-#actividad .reading .class_slide {
-    padding-top: 0;
-}
 /*Cover*/
 #actividad .cover .class_slide {
     padding: 10px 0;
@@ -1758,6 +1758,32 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 }
 #actividad .carousel-inner .cover .header {
     display: none;
+}
+/*blackheader*/
+.content_type_clase_newcloseupdev #actividad .content .blackheader .header .title {
+    background: #001822;
+    color: #ffd700;
+    width: calc(100% + 120px);
+    margin-left: -60px;
+    padding: 15px 60px 1px 60px;
+    margin-top: -40px;
+}
+.content_type_clase_newcloseupdev #actividad .content .blackheader .header .title h3 {
+	font-size: 2.2rem;
+}
+#actividad .content .blackheader .header .title .video {
+    color: #fff;
+    font-size: 3.4rem;
+    margin-right: 5px;
+}
+/*blueheader*/
+.content_type_clase_newcloseupdev #actividad .content .blueheader .header .title {
+    background: #0067B3;
+    color: #FFF;
+    width: calc(100% + 120px);
+    margin-left: -60px;
+    padding: 10px 60px 10px 60px;
+    margin-top: -40px;
 }
 	/*slide test*/
 		.content_type_clase_newcloseupdev #actividad .workspace.test .respuestas li {
