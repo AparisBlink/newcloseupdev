@@ -771,7 +771,12 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 /*Navbar*/
 /* Navbar (Breadcums) */
 .content_type_clase_newcloseupdev .navbar-content:before {
+	content: " ";
+	position: relative;
+	left: 10px;
+	float: left;
     background-image: url(images/logo_NatGeoLearning.png);
+	background-repeat: no-repeat;
     background-size: contain;
     left: 10px;
     height: 60px;
@@ -820,18 +825,6 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 	padding-right: 0;
 	text-align: center;
 	position: relative;
-}
-
-.content_type_clase_newcloseupdev .navbar-content:before {
-	content: " ";
-	background-image: url(logo.png);
-	height: 20px;
-	background-repeat: no-repeat;
-	width: 100px;
-	margin-top: 18px;
-	position: relative;
-	left: 10px;
-	float: left;
 }
 
 .content_type_clase_newcloseupdev .slider-indicators {
