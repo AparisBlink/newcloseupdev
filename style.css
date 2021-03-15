@@ -1983,6 +1983,11 @@ table.bck-table-2 td {
 .cke_contents .carousel-inner .cover .header {
     display: block;
 }
+@media screen and (max-width: 768px) {
+#actividad .carousel-inner .cover .class_slide {
+    padding: 0;
+}
+}
 /*blackheader*/
 .content_type_clase_newcloseupdev #actividad .content .blackheader .header .title {
     background: #001822;
