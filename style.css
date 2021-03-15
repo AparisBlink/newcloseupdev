@@ -949,7 +949,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     background-color: #fff0;
     color: #ffffff;
     border-right: 3px solid #ffffff;
-    padding: 0 12px 0 7px;
+    padding: 2px 4px;
     margin: 0;
 	width: auto;
     height: 35px;
@@ -1982,6 +1982,11 @@ table.bck-table-2 td {
 	}
 	.content .workspace.calculo table {
 		border: 0;
+	}
+	/*Ordenar*/
+	#actividad .workspace.ordenar .js-rank-item {
+		border: 1px solid #001822;
+		border-radius: 0;
 	}
 
 /*----------------------*/
