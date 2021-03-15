@@ -994,6 +994,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 .bck-title-4 {
     font-family: 'AvenirLTStd-Light';
     font-size: 1.5rem;
+	margin-top: -10px;
 }
 /*----- TÍTULO 5 -----------*/
 .bck-title-5 {
@@ -1178,10 +1179,11 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 .bck-box-4,
 .bck-box.center.bck-box-4 {
     border: 0;
-    margin-bottom: 10px;
     padding: 0;
     width: calc(100% + 120px);
     margin-left: -60px;
+	margin-bottom: 0;
+	margin-top: 0;
 }
 .bck-box-4 > .bck-content {
     padding: 10px 40px;
@@ -1472,10 +1474,11 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 .bck-box-22,
 .bck-box.center.bck-box-22 {
     border: 0;
-    margin-bottom: 10px;
     padding: 0;
     width: calc(100% + 120px);
     margin-left: -60px;
+	margin-bottom: 0;
+	margin-top: 0;
 }
 .bck-box-22 > .bck-content {
     padding: 10px 40px;
@@ -1994,7 +1997,7 @@ table.bck-table-2 td {
     color: #ffd700;
     width: calc(100% + 120px);
     margin-left: -60px;
-    padding: 25px 60px 1px 60px;
+    padding: 35px 60px 1px 60px;
     margin-top: -40px;
 }
 .content_type_clase_newcloseupdev #actividad .content .blackheader .header .title h3 {
@@ -2011,9 +2014,16 @@ table.bck-table-2 td {
     color: #FFF;
     width: calc(100% + 120px);
     margin-left: -60px;
-    padding: 25px 60px 1px 60px;
+    padding: 35px 60px 1px 60px;
     margin-top: -40px;
 }
+/* Temporal unittag_WBcengage*/
+.unittag_wbcengage #actividad .item-container {
+	filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+}
+/**----**/
+
 	/*slide test*/
 		.content_type_clase_newcloseupdev #actividad .workspace.test .respuestas li {
 			width: 33%;
