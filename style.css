@@ -1948,6 +1948,9 @@ table.bck-table-2 td {
 #actividad .carousel-inner .cover .header {
     display: none;
 }
+.cke_contents .carousel-inner .cover .header {
+    display: block;
+}
 /*blackheader*/
 .content_type_clase_newcloseupdev #actividad .content .blackheader .header .title {
     background: #001822;
