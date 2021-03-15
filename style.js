@@ -53,7 +53,7 @@
 				{ name: 'Box 21 Project ', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-21' } },
 				{ name: 'Box 22 Lecture Light ', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-22' } },
 
-				{ name: 'L.123 Pink Left', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-01' } },
+				{ name: 'L.123 Main', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-01' } },
 				{ name: 'L.abc Black', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-02' } },
 				{ name: 'L.abc pink', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-03' } },
 				{ name: 'L.123 pink', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-04' } },
