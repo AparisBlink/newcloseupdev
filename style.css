@@ -825,6 +825,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 	padding-right: 0;
 	text-align: center;
 	position: relative;
+	font-family: 'AvenirLTsd';
 }
 
 .content_type_clase_newcloseupdev .slider-indicators {
@@ -874,6 +875,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
+	font-weight: normal;
 }
 
 .content_type_clase_newcloseupdev .publisher-navbar .dropdown button {
@@ -1509,6 +1511,18 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 }
 .popover {
 	border-radius: 0;
+}
+
+/*Pie de imagen*/
+.bck-i-fullscreen-enabled.bck-i-fullscreen {
+    padding: 0;
+}
+.bck-img2-figure figcaption {
+    background-color: #001822;
+    color: #fff;
+    border-left: 10px solid gold;
+    padding: 2px;
+    margin-top: -10px;
 }
 
 /*Listas ordenadas*/
