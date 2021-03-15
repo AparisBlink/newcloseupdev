@@ -1668,7 +1668,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 }
 /* Icono audio*/
 #actividad .player.audio {
-    background-image: url(/useruploads/r/a/221070314/activity_other_imported/Cengage-New-Up-demo-audio_icon_835991.png);
+    background-image: url(images/icon_audio_closeup.png);
     background-size: 14px 12px;
     background-position: center;
     background-color: #4D3E99;
@@ -1677,7 +1677,12 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     height: 22px !important;
     vertical-align: text-bottom;
 }
-
+#actividad .player.audio a:focus,
+ #actividad .player.audio:active,
+  #actividad .player.audio:hover {
+    filter: brightness(1.3);
+    -webkit-filter: brightness(1.3);
+}
 /*Popup*/
 .popover-template {
 	font-family: 'AvenirLTsd';
