@@ -1519,6 +1519,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 /*Pie de imagen*/
 .bck-i-fullscreen-enabled.bck-i-fullscreen {
     padding: 0;
+	margin: 10px 0;
 }
 .bck-img2-figure figcaption {
     background-color: #001822;
