@@ -1999,6 +1999,7 @@ table.bck-table-2 td {
     margin-left: -60px;
     padding: 35px 60px 1px 60px;
     margin-top: -40px;
+	border-bottom: 0;
 }
 .content_type_clase_newcloseupdev #actividad .content .blackheader .header .title h3 {
 	font-size: 2.2rem;
@@ -2016,6 +2017,7 @@ table.bck-table-2 td {
     margin-left: -60px;
     padding: 35px 60px 1px 60px;
     margin-top: -40px;
+	border-bottom: 0;
 }
 /* Temporal unittag_WBcengage*/
 .unittag_wbcengage #actividad .item-container {
