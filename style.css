@@ -1975,6 +1975,15 @@ table.bck-table-2 td {
 	border-radius: 0;
 	cursor: pointer;
 	}
+	/*Calculo*/
+	.content .workspace.calculo table td, 
+	.content .workspace.calculo table th {
+		border: 0;
+	}
+	.content .workspace.calculo table {
+		border: 0;
+	}
+
 /*----------------------*/
 
 /*Secciones*/
