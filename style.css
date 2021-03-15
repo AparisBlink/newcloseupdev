@@ -1945,7 +1945,7 @@ table.bck-table-2 td {
 	}
 
 	/*Rellenar espacios*/
-	.content_type_clase_cengage2021demo .slide_main input {
+	.content_type_clase_newcloseupdev .slide_main input {
 	background-color: #fff9d7;
 	border: 1px solid #ccc;
 	border-radius: 4px;
@@ -1957,7 +1957,7 @@ table.bck-table-2 td {
 	border-bottom: 1px solid #001822;
 	border-radius: 0;
 	}
-	.content_type_clase_cengage2021demo .slide_main input:focus {
+	.content_type_clase_newcloseupdev .slide_main input:focus {
 	border-top-color: #ffd700;
 	border-right-color: #ffd700;
 	border-bottom-color: #ffd700;
@@ -1997,7 +1997,7 @@ table.bck-table-2 td {
     color: #ffd700;
     width: calc(100% + 120px);
     margin-left: -60px;
-    padding: 15px 60px 1px 60px;
+    padding: 25px 60px 1px 60px;
     margin-top: -40px;
 }
 .content_type_clase_newcloseupdev #actividad .content .blackheader .header .title h3 {
@@ -2014,7 +2014,7 @@ table.bck-table-2 td {
     color: #FFF;
     width: calc(100% + 120px);
     margin-left: -60px;
-    padding: 10px 60px 10px 60px;
+    padding: 25px 60px 1px 60px;
     margin-top: -40px;
 }
 	/*slide test*/
