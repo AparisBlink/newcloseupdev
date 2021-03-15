@@ -2064,5 +2064,14 @@ table.bck-table-2 td {
 	.bck-title-1 {
 		font-size: 3.0rem;
 	}
+	.bck-box.bck-box-7 > .bck-content {
+		position: relative;
+		bottom: 0;
+	}
+	.bck-box.bck-box-8.center {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
 
 }
