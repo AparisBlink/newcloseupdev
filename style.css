@@ -2020,6 +2020,11 @@ table.bck-table-2 td {
     margin-top: -40px;
 	border-bottom: 0;
 }
+/* Coursetag coursetag_WBcengage*/
+.coursetag_wbcengage #actividad .item-container {
+	filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+}
 /* Temporal unittag_WBcengage*/
 .unittag_wbcengage #actividad .item-container {
 	filter: grayscale(1);
