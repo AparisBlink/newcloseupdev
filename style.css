@@ -1042,9 +1042,9 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 .bck-enfasis-5 {
     color: #fff;
     background: #4d3e99;
-    padding: 1px 5px;
+    padding: 0px 5px;
     border-radius: 0;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: bold;
 }
 .bck-enfasis-6 {
