@@ -1937,6 +1937,7 @@ table.bck-table-2 td {
 	border: 0;
 	border-bottom: 1px solid #001822;
 	border-radius: 0;
+	margin: 0;
 	}
 	.content_type_clase_newcloseupdev .slide_main input:focus {
 	border-top-color: #ffd700;
