@@ -768,6 +768,9 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 #indice .units ul li a .title {
     padding: 8px;
 }
+#indice .unit-content .header .title {
+	display: none;
+}
 
 /*Navbar*/
 /* Navbar (Breadcums) */
