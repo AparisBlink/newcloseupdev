@@ -1206,9 +1206,9 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     z-index: -1;
 }
 .bck-box-3 > .bck-content {
-    padding: 15px;
     border: 2px solid #faa63f;
     border-radius: 0;
+	padding: 15px 10px 10px 10px;
 }
 
 /*--- CAJA 04 - Lectures ---*/
