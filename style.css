@@ -774,6 +774,9 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 
 /*Navbar*/
 /* Navbar (Breadcums) */
+#top-navigator {
+    display: none;
+}
 .content_type_clase_newcloseupdev .navbar-content:before {
 	content: " ";
 	position: relative;
