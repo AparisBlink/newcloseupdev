@@ -1064,6 +1064,9 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 /*------------------------*/
 /*------- CAJAS ---------*/
 /*-----------------------*/
+.bck-content .bck-box.center:last-child {
+    margin-bottom: 0;
+}
 .bck-box.center {
     margin: 10px 0px 15px 0px;
 }
@@ -1072,12 +1075,10 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 	border: 0px;
 	word-break: break-word;
 }
-
 .bck-box.left {
 	float: left;
 	margin-right: 25px;
 }
-
 .bck-box.right {
 	float: right;
 	margin-left: 25px;
@@ -1116,28 +1117,43 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     position: relative;
 }
 .bck-box-2 > .bck-title {
-    background: #FAA63F;
+	background: #FAA63F;
     padding: 5px 10px;
     border-radius: 10px 10px 0px 0px;
     font-size: 2.2rem;
     text-align: left;
     border-radius: 0;
     display: inline-block;
-    position: absolute;
-    top: -41px;
+    position: relative;
     right: 0;
     min-width: 110px;
+    z-index: 2;
 }
 .bck-box-2 > .bck-title:before {
     content: "";
     position: absolute;
-    border-left: 55px solid transparent;
-    border-right: 55px solid transparent;
-    border-top: 7px solid #faa63f;
-    width: 0;
-    height: 0;
-    bottom: -7px;
-    left: 0px;
+    width: 50%;
+    height: 15px;
+    bottom: -6px;
+    right: 1px;
+    background: #faa63f;
+    -moz-transform: rotate(-6deg);
+    -webkit-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+	z-index: -1;
+}
+.bck-box-2 > .bck-title:after {
+    content: "";
+    position: absolute;
+    width: 51%;
+    height: 14px;
+    bottom: -6px;
+    left: 1px;
+    background: #faa63f;
+    -moz-transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+    transform: rotate(6deg);
+    z-index: -1;
 }
 .bck-box-2 >.bck-content {
     padding: 10px 10px 0px 10px;
@@ -1149,29 +1165,44 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 .bck-box.center.bck-box-3 {
     border: none;
     position: relative;
-    margin-top: 55px;
     padding: 0;
 }
 .bck-box-3 > .bck-title {
+	display: inline-block;
     text-align: left;
     font-size: 2.8rem;
-    margin-bottom: -8px;
+    margin-bottom: 0;
     background: #faa63f;
     padding: 2px 25px;
-    position: absolute;
-    top: -33px;
+    position: relative;
     min-width: 110px;
+    z-index: 2;
 }
 .bck-box-3 > .bck-title:before {
-    content: "";
+	content: "";
     position: absolute;
-    border-left: 55px solid transparent;
-    border-right: 55px solid transparent;
-    border-top: 10px solid #faa63f;
-    width: 0;
-    height: 0;
-    bottom: -7px;
-    right: 0;
+    width: 50%;
+    height: 15px;
+    bottom: -6px;
+    right: 1px;
+    background: #faa63f;
+    -moz-transform: rotate(-6deg);
+    -webkit-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+    z-index: -1;
+}
+.bck-box-3 > .bck-title:after {
+	content: "";
+    position: absolute;
+    width: 51%;
+    height: 14px;
+    bottom: -6px;
+    left: 1px;
+    background: #faa63f;
+    -moz-transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+    transform: rotate(6deg);
+    z-index: -1;
 }
 .bck-box-3 > .bck-content {
     padding: 15px;
