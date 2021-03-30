@@ -1904,6 +1904,9 @@ table.bck-table-2 td {
 	border-radius: 0;
 	vertical-align: baseline;
 	}
+	#actividad .workspace.chooseblanks .inline-answer {
+		vertical-align: middle;
+	}
 
 	/*Respuesta multiple*/
 	#actividad .workspace.multiple-choice .opcion {
@@ -1926,6 +1929,12 @@ table.bck-table-2 td {
 	border-color: #ffd700;
 	background-color: #ffd700;
 	}
+	#actividad .workspace.multiplechoice_horizontal .opcion.respuesta_ko {
+		background-position: top center;
+	}
+	#actividad .workspace.multiplechoice_horizontal .opcion.respuesta_ok {
+		background-position: top center;
+	}
 
 	/*Clasificar*/
 	#actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
@@ -1946,6 +1955,23 @@ table.bck-table-2 td {
 	-webkit-box-shadow: 0px 4px 3px #0000001f;
 	-moz-box-shadow: 0px 4px 3px #0000001f;
 	box-shadow: 0px 4px 3px #0000001f;
+	}
+	/*Relacionar*/
+	#actividad .workspace.matching .box p {
+		display: table-cell;
+		vertical-align: middle;
+		text-align: left;
+	}
+	#actividad .workspace.matching .opcion {
+		border: 1px solid #001822;
+		padding: 0;
+		-moz-border-radius: 0;
+		-webkit-border-radius: 0;
+		border-radius: 0;
+	}
+	#actividad .workspace.matching .box {
+		padding: 5px 10px;
+		text-align: left;
 	}
 
 	/*Rellenar espacios*/
