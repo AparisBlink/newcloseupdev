@@ -1159,6 +1159,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 .bck-box-2 >.bck-content {
     padding: 10px 10px 0px 10px;
     border: 2px solid #faa63f;
+	text-align: justify;
 }
 
 /*--- CAJA 03 - Exam task ---*/
