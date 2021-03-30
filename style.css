@@ -1112,9 +1112,9 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 /*--- CAJA 02 - Exam tip ---*/
 .bck-box.bck-box-2, 
 .bck-box.center.bck-box-2 {
-	padding: 0px;
-    margin: 55px 0px 15px 0px;
+    padding: 0px;
     position: relative;
+    text-align: end;
 }
 .bck-box-2 > .bck-title {
 	background: #FAA63F;
@@ -1128,6 +1128,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     right: 0;
     min-width: 110px;
     z-index: 2;
+    text-align: center;
 }
 .bck-box-2 > .bck-title:before {
     content: "";
