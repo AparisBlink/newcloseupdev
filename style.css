@@ -1974,6 +1974,13 @@ table.bck-table-2 td {
 		text-align: left;
 	}
 
+	/* Test*/
+	.workspace .checkbox-option label.filter-label,
+	 .workspace .checkbox-option label.filter-label-append,
+	  .workspace .radio-option label.filter-label {
+		  font-size: 1.8rem;;
+	  }
+
 	/*Rellenar espacios*/
 	.content_type_clase_newcloseupdev .slide_main input {
 	background-color: #fff9d7;
@@ -2005,6 +2012,10 @@ table.bck-table-2 td {
 	display: inline-block;
 	border-radius: 0;
 	cursor: pointer;
+	}
+	.fillblanks-draggable-wrapper .response p {
+	font-size: 1.8rem;
+	font-family: 'Noto Sans';
 	}
 	/*Calculo*/
 	.content .workspace.calculo table td, 
