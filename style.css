@@ -2084,14 +2084,22 @@ table.bck-table-2 td {
 	border-bottom: 0;
 }
 /* Coursetag coursetag_WBcengage*/
-.coursetag_wbcengage #actividad .item-container {
-	filter: grayscale(1);
+.coursetag_WBcengage .content_type_clase_newcloseupdev .slide-wrapper {
 	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
+}
+.coursetag_WBcengage .content_type_clase_newcloseupdev #actividad .content .header .title {
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
 }
 /* Temporal unittag_WBcengage*/
-.unittag_wbcengage #actividad .item-container {
-	filter: grayscale(1);
+.unittag_WBcengage .content_type_clase_newcloseupdev .slide-wrapper {
 	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
+}
+.unittag_WBcengage .content_type_clase_newcloseupdev #actividad .content .header .title {
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
 }
 /**----**/
 
