@@ -1586,12 +1586,13 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     content: counter(bck-li-counter);
     position: absolute;
     display: inline-block;
-    left: 0px;
-    width: auto;
+    left: -30px;
+    width: 40px;
     height: auto;
     color: #000000;
     font-weight: 700;
     font-weight: bold;
+	text-align: right;
 }
 .content .bck-ol li:before,
 .cke_contents .bck-ol li:before {
@@ -1599,7 +1600,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     background: none;
     color: #ED155B;
     height: auto;
-    width: auto;
+    width: 40px;
     margin-top: 0;
     line-height: 2.7rem;
     font-weight: bold;
