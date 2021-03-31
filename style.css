@@ -1983,7 +1983,11 @@ table.bck-table-2 td {
 	 .workspace .checkbox-option label.filter-label-append,
 	  .workspace .radio-option label.filter-label {
 		  font-size: 1.8rem;;
-	  }
+	}
+	  #actividad .workspace.test .respuestas {
+		margin-top: 0.5em;
+		margin-bottom: 0.6em;
+	}
 
 	/*Rellenar espacios*/
 	.content_type_clase_newcloseupdev .slide_main input {
