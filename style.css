@@ -728,6 +728,10 @@ a:hover, a:active, a:focus {
 	font-size: 1.8rem;
 	font-family: "Noto Sans", sans-serif;
 }
+#actividad .workspace {
+    font-size: 1.8rem;
+    font-family: "Noto Sans", sans-serif;
+}
 .bck-i-fullscreen-wrapper {
 	padding: 0;
 }
