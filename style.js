@@ -21,14 +21,14 @@
 				{ name: 'T.05 Grammar Reference 5', element: 'h4', attributes: { 'class': 'bck-title-5'} },
 				{ name: 'T.06', element: 'h4', attributes: { 'class': 'bck-title-6'} },
 
-				{ name: 'E.01 AvenirLight', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
-				{ name: 'E.02 Palatino', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
-				{ name: 'E.03 Tekton', element: 'span', attributes: { 'class': 'bck-enfasis-3'} },
+				{ name: 'E.01 Noto Sans', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
+				{ name: 'E.02 Noto Serif', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
+				{ name: 'E.03 Comic Neu', element: 'span', attributes: { 'class': 'bck-enfasis-3'} },
 				{ name: 'E.04 Number Cover', element: 'span', attributes: { 'class': 'bck-enfasis-4'} },
 				{ name: 'E.05 Audio', element: 'span', attributes: { 'class': 'bck-enfasis-5'} },
 				{ name: 'E.06 Pink', element: 'span', attributes: { 'class': 'bck-enfasis-6'} },
 				{ name: 'E.07 Example', element: 'span', attributes: { 'class': 'bck-enfasis-7'} },
-				{ name: 'E.08 Higlight', element: 'span', attributes: { 'class': 'bck-enfasis-8'} },
+				{ name: 'E.08 Highlight', element: 'span', attributes: { 'class': 'bck-enfasis-8'} },
 
 				{ name: 'Box 01 Word Focus ', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
 				{ name: 'Box 02 Exam Tip', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
