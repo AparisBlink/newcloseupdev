@@ -2151,6 +2151,7 @@ table.bck-table-2 td {
 @media screen and (max-width: 480px) {
 	#actividad .carousel-inner .item-container {
 		padding: 0;
+		padding-bottom: 90px;
 	}
 	.bck-title-3 {
 		font-size: 3.0rem;
