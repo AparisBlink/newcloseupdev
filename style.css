@@ -845,7 +845,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 }
 .bck-box-2 > .bck-title {
 	background: #FAA63F;
-    padding: 5px 10px;
+    padding: 0 20px;
     border-radius: 10px 10px 0px 0px;
     font-size: 2.2rem;
     text-align: left;
@@ -902,7 +902,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     font-size: 2.8rem;
     margin-bottom: 0;
     background: #faa63f;
-    padding: 2px 25px;
+    padding: 0 25px;
     position: relative;
     min-width: 110px;
     z-index: 2;
@@ -1325,6 +1325,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     font-weight: 700;
     font-weight: bold;
 	text-align: right;
+	top: 1px;
 }
 .content .bck-ol li:before,
 .cke_contents .bck-ol li:before {
