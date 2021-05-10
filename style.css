@@ -108,7 +108,7 @@
 	}
 	#actividad .carousel-inner .item-container {
 		background-image: none;
-		margin: 20px auto 30px;
+		margin: 0 auto 30px;
 		padding: 0px;
 		padding-bottom: 90px;
 		position: relative;
@@ -506,10 +506,11 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 	background-repeat: no-repeat;
     background-size: contain;
     left: 10px;
-    height: 60px;
+    height: 40px;
     width: 135px;
     margin-top: 9px;
     margin-right: 15px;
+	margin-bottom: 7px;
 }
 .content_type_clase_newcloseupdev .publisher-navbar {
 	position: fixed;
@@ -1523,6 +1524,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 }
 .bck-dropdown-content {
     background-color: unset;
+	max-height: none;
     border-bottom: 3px solid gold;
 }
 .bck-dropdown {
